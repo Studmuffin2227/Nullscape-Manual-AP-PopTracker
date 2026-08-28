@@ -1,0 +1,760 @@
+[
+  {
+    "name": "Seed of Potential",
+    "codes": "seed_of_potential",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "img": "images/consumable.png"
+  },
+  {
+    "name": "Seed of Control",
+    "codes": "seed_of_control",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 9,
+    "initial_quantity": 0,
+    "img": "images/consumable.png"
+  },
+  {
+    "name": "Seed of Nullscape",
+    "codes": "seed_of_nullscape",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "img": "images/consumable.png"
+  },
+  {
+    "name": "Seed of Introspection",
+    "codes": "seed_of_introspection",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "img": "images/consumable.png"
+  },
+  {
+    "name": "Seed of Omnipotence",
+    "codes": "seed_of_omnipotence",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "img": "images/consumable.png"
+  },
+  {
+    "name": "Seed of Immortality",
+    "codes": "seed_of_immortality",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "img": "images/consumable.png"
+  },
+  {
+    "name": "Progressive Ungate Levels",
+    "codes": "progressive_ungate_levels",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "img": "images/ungate.png"
+  },
+  {
+    "name": "Progressive Lower Difficulty",
+    "codes": "progressive_lower_difficulty",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "initial_quantity": 0,
+    "img": "images/upgrades/Orb.png"
+  },
+  {
+    "name": "Diver Class",
+    "codes": "diver_class",
+    "type": "toggle",
+    "img": "images/classes/Diver.png"
+  },
+  {
+    "name": "Charger Class",
+    "codes": "charger_class",
+    "type": "toggle",
+    "img": "images/classes/Charger.png"
+  },
+  {
+    "name": "Grappler Class",
+    "codes": "grappler_class",
+    "type": "toggle",
+    "img": "images/classes/Grappler.png"
+  },
+  {
+    "name": "Spirit Class",
+    "codes": "spirit_class",
+    "type": "toggle",
+    "img": "images/classes/Spirit.png"
+  },
+  {
+    "name": "Glider Class",
+    "codes": "glider_class",
+    "type": "toggle",
+    "img": "images/classes/Glider.png"
+  },
+  {
+    "name": "Wanted Class",
+    "codes": "wanted_class",
+    "type": "toggle",
+    "img": "images/classes/Wanted.png"
+  },
+  {
+    "name": "Prisoner Class",
+    "codes": "prisoner_class",
+    "type": "toggle",
+    "img": "images/classes/Prisoner.png"
+  },
+  {
+    "name": "ROOTS IN VERSATILITY",
+    "codes": "roots_in_versatility",
+    "type": "toggle",
+    "img": "images/roots/Diver.png"
+  },
+  {
+    "name": "ROOTS IN PERSISTENCE",
+    "codes": "roots_in_persistence",
+    "type": "toggle",
+    "img": "images/roots/Charger.png"
+  },
+  {
+    "name": "ROOTS IN TRUST",
+    "codes": "roots_in_trust",
+    "type": "toggle",
+    "img": "images/roots/Grappler.png"
+  },
+  {
+    "name": "ROOTS IN SELF-AWARENESS",
+    "codes": "roots_in_self_awareness",
+    "type": "toggle",
+    "img": "images/roots/Spirit.png"
+  },
+  {
+    "name": "ROOTS IN BRAVERY",
+    "codes": "roots_in_bravery",
+    "type": "toggle",
+    "img": "images/roots/Glider.png"
+  },
+  {
+    "name": "ROOTS IN CERTAINTY",
+    "codes": "roots_in_certainty",
+    "type": "toggle",
+    "img": "images/roots/Wanted.png"
+  },
+  {
+    "name": "ROOTS IN DEFIANCE",
+    "codes": "roots_in_defiance",
+    "type": "toggle",
+    "img": "images/roots/Prisoner.png"
+  },
+  {
+    "name": "FRAGMENT OF BLOSSOM",
+    "codes": "fragment_of_blossom",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 40,
+    "initial_quantity": 0,
+    "img": "images/fragment.png"
+  },
+  {
+    "name": "Flesh Trap",
+    "codes": "flesh_trap",
+    "type": "toggle",
+    "img": "images/traps/Flesh.png"
+  },
+  {
+    "name": "Oblivion Trap",
+    "codes": "oblivion_trap",
+    "type": "toggle",
+    "img": "images/traps/Oblivion.png"
+  },
+  {
+    "name": "Prisoner Trap",
+    "codes": "prisoner_trap",
+    "type": "toggle",
+    "img": "images/traps/PrisonerTrap.png"
+  },
+  {
+    "name": "Extra Upgrade Stack",
+    "codes": "extra_upgrade_stack",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "img": "images/consumable.png"
+  },
+  {
+    "name": "Fragments of Blossom Required",
+    "codes": "opt_blossom_required",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 40,
+    "initial_quantity": 20,
+    "img": "images/fragment.png"
+  },
+  {
+    "name": "Opt: Randomize ROOTS",
+    "codes": "opt_randomize_roots",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/option.png"
+  },
+  {
+    "name": "Opt: CurSanity",
+    "codes": "opt_cursanity",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/option.png"
+  },
+  {
+    "name": "Opt: CurSanity 15+",
+    "codes": "opt_cursanity_15",
+    "type": "toggle",
+    "initial_active_state": false,
+    "img": "images/option.png"
+  },
+  {
+    "name": "Opt: OSTsanity",
+    "codes": "opt_ostsanity",
+    "type": "toggle",
+    "initial_active_state": true,
+    "img": "images/option.png"
+  },
+  {
+    "name": "Opt: OSTsanity 15+",
+    "codes": "opt_ostsanity_15",
+    "type": "toggle",
+    "initial_active_state": false,
+    "img": "images/option.png"
+  },
+  {
+    "name": "Opt: OSTsanity 30+",
+    "codes": "opt_ostsanity_30",
+    "type": "toggle",
+    "initial_active_state": false,
+    "img": "images/option.png"
+  },
+  {
+    "name": "Opt: Goal Type",
+    "codes": "opt_goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/option.png",
+        "codes": "opt_goal",
+        "name": "Goal: Reach Level 10"
+      },
+      {
+        "img": "images/option.png",
+        "codes": "opt_goal",
+        "name": "Goal: Reach Level 15"
+      },
+      {
+        "img": "images/option.png",
+        "codes": "opt_goal",
+        "name": "Goal: Reach Level 20"
+      }
+    ]
+  },
+  {
+    "name": "Paycheck",
+    "codes": "upg_paycheck",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "img": "images/upgrades/Paycheck.png",
+    "overlay_align": "right"
+  },
+  {
+    "name": "Business License",
+    "codes": "upg_business_license",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "initial_quantity": 0,
+    "img": "images/upgrades/BusinessLicense.png",
+    "overlay_align": "right"
+  },
+  {
+    "name": "Medal",
+    "codes": "upg_medal",
+    "type": "toggle",
+    "img": "images/upgrades/Medal.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Fanny Pack",
+    "codes": "upg_fanny_pack",
+    "type": "toggle",
+    "img": "images/upgrades/FannyPack.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Gift Magnet",
+    "codes": "upg_gift_magnet",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 3,
+    "initial_quantity": 0,
+    "img": "images/upgrades/GiftMagnet.png",
+    "overlay_align": "right"
+  },
+  {
+    "name": "Gift Idol",
+    "codes": "upg_gift_idol",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "img": "images/upgrades/GiftIdol.png",
+    "overlay_align": "right"
+  },
+  {
+    "name": "Adrenaline",
+    "codes": "upg_adrenaline",
+    "type": "toggle",
+    "img": "images/upgrades/Adrenaline.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Swiftness Rings",
+    "codes": "upg_swiftness_rings",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 3,
+    "initial_quantity": 0,
+    "img": "images/upgrades/SwiftnessRing.png",
+    "overlay_align": "right"
+  },
+  {
+    "name": "Double Jump",
+    "codes": "upg_double_jump",
+    "type": "toggle",
+    "img": "images/upgrades/DoubleJump.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Grace Wings",
+    "codes": "upg_grace_wings",
+    "type": "toggle",
+    "img": "images/upgrades/GraceWings.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Pocket Bell",
+    "codes": "upg_pocket_bell",
+    "type": "toggle",
+    "img": "images/upgrades/Pocket_Bell.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Ice Skates",
+    "codes": "upg_ice_skates",
+    "type": "toggle",
+    "img": "images/upgrades/IceSkates.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Advanced Gravity Coil",
+    "codes": "upg_advanced_gravity_coil",
+    "type": "toggle",
+    "img": "images/upgrades/AdvancedGravityCoil.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Sport Shoes",
+    "codes": "upg_sport_shoes",
+    "type": "toggle",
+    "img": "images/upgrades/SportShoes.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Matrix Tetrahedron",
+    "codes": "upg_matrix_tetrahedron",
+    "type": "toggle",
+    "img": "images/upgrades/MatrixTetrahedron.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Better Jump Pads",
+    "codes": "upg_better_jump_pads",
+    "type": "toggle",
+    "img": "images/upgrades/BetterJumpPads.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Grapple Points",
+    "codes": "upg_grapple_points",
+    "type": "toggle",
+    "img": "images/upgrades/GrapplePoints.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Tria Orbs",
+    "codes": "upg_tria_orbs",
+    "type": "toggle",
+    "img": "images/upgrades/TriaOrbs.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "More Altars",
+    "codes": "upg_more_altars",
+    "type": "toggle",
+    "img": "images/upgrades/MoreAltars.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Larger Grapple Points",
+    "codes": "upg_larger_grapple_points",
+    "type": "toggle",
+    "img": "images/upgrades/LargerGrapplePoints.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Helmet",
+    "codes": "upg_helmet",
+    "type": "toggle",
+    "img": "images/upgrades/Helmet.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Ninja Belt",
+    "codes": "upg_ninja_belt",
+    "type": "toggle",
+    "img": "images/upgrades/NinjaBelt.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Shark Tail",
+    "codes": "upg_shark_tail",
+    "type": "toggle",
+    "img": "images/upgrades/SharkTail.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Miniature Hourglass",
+    "codes": "upg_miniature_hourglass",
+    "type": "toggle",
+    "img": "images/upgrades/MiniatureHourglass.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Radar",
+    "codes": "upg_radar",
+    "type": "toggle",
+    "img": "images/upgrades/Radar.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Radar Module: Enemies",
+    "codes": "upg_radar_module_enemies",
+    "type": "toggle",
+    "img": "images/upgrades/RadarModuleEnemies.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Radar Module: Tripmines",
+    "codes": "upg_radar_module_tripmines",
+    "type": "toggle",
+    "img": "images/upgrades/RadarModuleTripmines.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Radar Module: Altars",
+    "codes": "upg_radar_module_altars",
+    "type": "toggle",
+    "img": "images/upgrades/RadarModuleAltars.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Radar Module: Players",
+    "codes": "upg_radar_module_players",
+    "type": "toggle",
+    "img": "images/upgrades/RadarModulePlayers.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Radar Module: Instruments",
+    "codes": "upg_radar_module_instruments",
+    "type": "toggle",
+    "img": "images/upgrades/RadarModuleInstruments.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Defuse Kit",
+    "codes": "upg_defuse_kit",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 3,
+    "initial_quantity": 0,
+    "img": "images/upgrades/DefuseKit.png",
+    "overlay_align": "right"
+  },
+  {
+    "name": "Last Robloxian Standing",
+    "codes": "upg_last_robloxian_standing",
+    "type": "toggle",
+    "img": "images/upgrades/LastRobloxianStanding.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Subspacial Barrier",
+    "codes": "upg_subspacial_barrier",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "initial_quantity": 0,
+    "img": "images/upgrades/SubspacialBarrier.png",
+    "overlay_align": "right"
+  },
+  {
+    "name": "Shield",
+    "codes": "upg_shield",
+    "type": "toggle",
+    "img": "images/upgrades/Shield.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Panic Necklace",
+    "codes": "upg_panic_necklace",
+    "type": "toggle",
+    "img": "images/upgrades/PanicNecklace.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Drowned Aegis",
+    "codes": "upg_drowned_aegis",
+    "type": "toggle",
+    "img": "images/upgrades/DrownedAegis.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Charger Class Display",
+    "codes": "charger_class_display",
+    "type": "composite_toggle",
+    "item_left": "charger_class",
+    "item_right": "roots_in_persistence",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/classes/Charger.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/classes/Charger.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/classes/Charger.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/classes/ChargerRooted.png"
+      }
+    ]
+  },
+  {
+    "name": "Diver Class Display",
+    "codes": "diver_class_display",
+    "type": "composite_toggle",
+    "item_left": "diver_class",
+    "item_right": "roots_in_versatility",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/classes/Diver.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/classes/Diver.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/classes/Diver.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/classes/DiverRooted.png"
+      }
+    ]
+  },
+  {
+    "name": "Glider Class Display",
+    "codes": "glider_class_display",
+    "type": "composite_toggle",
+    "item_left": "glider_class",
+    "item_right": "roots_in_bravery",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/classes/Glider.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/classes/Glider.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/classes/Glider.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/classes/GliderRooted.png"
+      }
+    ]
+  },
+  {
+    "name": "Grappler Class Display",
+    "codes": "grappler_class_display",
+    "type": "composite_toggle",
+    "item_left": "grappler_class",
+    "item_right": "roots_in_trust",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/classes/Grappler.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/classes/Grappler.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/classes/Grappler.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/classes/GrapplerRooted.png"
+      }
+    ]
+  },
+  {
+    "name": "Prisoner Class Display",
+    "codes": "prisoner_class_display",
+    "type": "composite_toggle",
+    "item_left": "prisoner_class",
+    "item_right": "roots_in_defiance",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/classes/Prisoner.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/classes/Prisoner.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/classes/Prisoner.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/classes/PrisonerRooted.png"
+      }
+    ]
+  },
+  {
+    "name": "Spirit Class Display",
+    "codes": "spirit_class_display",
+    "type": "composite_toggle",
+    "item_left": "spirit_class",
+    "item_right": "roots_in_self_awareness",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/classes/Spirit.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/classes/Spirit.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/classes/Spirit.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/classes/SpiritRooted.png"
+      }
+    ]
+  },
+  {
+    "name": "Wanted Class Display",
+    "codes": "wanted_class_display",
+    "type": "composite_toggle",
+    "item_left": "wanted_class",
+    "item_right": "roots_in_certainty",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/classes/Wanted.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/classes/Wanted.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/classes/Wanted.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/classes/WantedRooted.png"
+      }
+    ]
+  }
+]

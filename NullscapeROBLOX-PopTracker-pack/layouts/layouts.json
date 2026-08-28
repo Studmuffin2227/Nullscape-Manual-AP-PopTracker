@@ -1,0 +1,670 @@
+{
+  "upgrades_block": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 4,
+        "rows": [
+          [
+            "upg_paycheck",
+            "upg_business_license",
+            "upg_medal",
+            "upg_fanny_pack",
+            "upg_gift_magnet",
+            "upg_gift_idol"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 4,
+        "rows": [
+          [
+            "upg_adrenaline",
+            "upg_swiftness_rings",
+            "upg_double_jump",
+            "upg_grace_wings",
+            "upg_pocket_bell",
+            "upg_ice_skates",
+            "upg_advanced_gravity_coil",
+            "upg_sport_shoes",
+            "upg_matrix_tetrahedron"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 4,
+        "rows": [
+          [
+            "upg_better_jump_pads",
+            "upg_grapple_points",
+            "upg_tria_orbs",
+            "upg_more_altars",
+            "upg_larger_grapple_points"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 4,
+        "rows": [
+          [
+            "upg_helmet",
+            "upg_ninja_belt",
+            "upg_shark_tail",
+            "upg_miniature_hourglass"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 4,
+        "rows": [
+          [
+            "upg_radar",
+            "upg_radar_module_enemies",
+            "upg_radar_module_tripmines",
+            "upg_radar_module_altars",
+            "upg_radar_module_players",
+            "upg_radar_module_instruments"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 4,
+        "rows": [
+          [
+            "upg_defuse_kit",
+            "upg_last_robloxian_standing",
+            "upg_subspacial_barrier",
+            "upg_shield",
+            "upg_panic_necklace",
+            "upg_drowned_aegis"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 128,
+        "rows": [
+          [
+            "fragment_of_blossom"
+          ]
+        ]
+      }
+
+    ]
+  },
+  "upgrades_block_big": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+          [
+            "upg_paycheck",
+            "upg_business_license",
+            "upg_medal",
+            "upg_fanny_pack",
+            "upg_gift_magnet",
+            "upg_gift_idol"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+          [
+            "upg_adrenaline",
+            "upg_swiftness_rings",
+            "upg_double_jump",
+            "upg_grace_wings",
+            "upg_pocket_bell",
+            "upg_ice_skates",
+            "upg_advanced_gravity_coil",
+            "upg_sport_shoes",
+            "upg_matrix_tetrahedron"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+          [
+            "upg_better_jump_pads",
+            "upg_grapple_points",
+            "upg_tria_orbs",
+            "upg_more_altars",
+            "upg_larger_grapple_points"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+          [
+            "upg_helmet",
+            "upg_ninja_belt",
+            "upg_shark_tail",
+            "upg_miniature_hourglass"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+          [
+            "upg_radar",
+            "upg_radar_module_enemies",
+            "upg_radar_module_tripmines",
+            "upg_radar_module_altars",
+            "upg_radar_module_players",
+            "upg_radar_module_instruments"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+          [
+            "upg_defuse_kit",
+            "upg_last_robloxian_standing",
+            "upg_subspacial_barrier",
+            "upg_shield",
+            "upg_panic_necklace",
+            "upg_drowned_aegis"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 100,
+        "rows": [
+          [
+            "fragment_of_blossom"
+          ]
+        ]
+      }
+    ]
+  },
+  "tracker_default": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "General",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "map",
+              "maps": [
+                "map_general"
+              ],
+              "max_height": 460
+            },
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Classes (click to open)",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_margin": "4,4",
+                    "item_size": 6,
+                    "rows": [
+                      [
+                        "nav_charger",
+                        "nav_diver",
+                        "nav_glider",
+                        "nav_grappler"
+                      ],
+                      [
+                        "nav_prisoner",
+                        "nav_spirit",
+                        "nav_wanted"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "layout",
+                  "key": "upgrades_block"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Charger",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block_big"
+                  }
+                },
+                {
+                  "type": "item",
+                  "item": "charger_class_display",
+                  "item_size": 150,
+                  "h_alignment": "center",
+                  "v_alignment": "center"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Charger Class Checks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_charger"
+                ],
+                "max_width": 640,
+                "max_height": 640,
+                "h_alignment": "center",
+                "v_alignment": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Diver",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block_big"
+                  }
+                },
+                {
+                  "type": "item",
+                  "item": "diver_class_display",
+                  "item_size": 150,
+                  "h_alignment": "center",
+                  "v_alignment": "center"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Diver Class Checks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_diver"
+                ],
+                "max_width": 640,
+                "max_height": 640,
+                "h_alignment": "center",
+                "v_alignment": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Glider",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block_big"
+                  }
+                },
+                {
+                  "type": "item",
+                  "item": "glider_class_display",
+                  "item_size": 150,
+                  "h_alignment": "center",
+                  "v_alignment": "center"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Glider Class Checks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_glider"
+                ],
+                "max_width": 640,
+                "max_height": 640,
+                "h_alignment": "center",
+                "v_alignment": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Grappler",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block_big"
+                  }
+                },
+                {
+                  "type": "item",
+                  "item": "grappler_class_display",
+                  "item_size": 150,
+                  "h_alignment": "center",
+                  "v_alignment": "center"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Grappler Class Checks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_grappler"
+                ],
+                "max_width": 640,
+                "max_height": 640,
+                "h_alignment": "center",
+                "v_alignment": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Prisoner",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block_big"
+                  }
+                },
+                {
+                  "type": "item",
+                  "item": "prisoner_class_display",
+                  "item_size": 150,
+                  "h_alignment": "center",
+                  "v_alignment": "center"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Prisoner Class Checks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_prisoner"
+                ],
+                "max_width": 640,
+                "max_height": 640,
+                "h_alignment": "center",
+                "v_alignment": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Spirit",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block_big"
+                  }
+                },
+                {
+                  "type": "item",
+                  "item": "spirit_class_display",
+                  "item_size": 150,
+                  "h_alignment": "center",
+                  "v_alignment": "center"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Spirit Class Checks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_spirit"
+                ],
+                "max_width": 640,
+                "max_height": 640,
+                "h_alignment": "center",
+                "v_alignment": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Wanted",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block_big"
+                  }
+                },
+                {
+                  "type": "item",
+                  "item": "wanted_class_display",
+                  "item_size": 150,
+                  "h_alignment": "center",
+                  "v_alignment": "center"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Wanted Class Checks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_wanted"
+                ],
+                "max_width": 640,
+                "max_height": 640,
+                "h_alignment": "center",
+                "v_alignment": "center"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Cursanity",
+        "content": {
+          "type": "array",
+          "orientation": "vertical",
+          "content": [
+            {
+              "type": "group",
+              "header": "Global Curses",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_cursanity_global"
+                ],
+                "max_height": 400
+              }
+            },
+            {
+              "type": "group",
+              "header": "Enemy Curses",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_cursanity_enemy"
+                ],
+                "max_height": 610
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "OSTsanity",
+        "content": {
+          "type": "group",
+          "header": "OSTsanity",
+          "content": {
+            "type": "map",
+            "maps": [
+              "map_ostsanity"
+            ],
+            "max_height": 780
+          }
+        }
+      },
+      {
+        "title": "Other Items",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "6,6",
+          "item_size": 80,
+          "v_alignment": "stretch",
+          "rows": [
+            [
+              "progressive_lower_difficulty",
+              "progressive_ungate_levels"
+            ],
+            [
+              "oblivion_trap",
+              "flesh_trap",
+              "prisoner_trap"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "YAML Settings",
+        "content": {
+          "type": "group",
+          "header": "Set these to match your seed's .yaml before tracking",
+          "content": {
+            "type": "itemgrid",
+            "item_margin": "6,6",
+            "item_size": 80,
+            "v_alignment": "stretch",
+            "rows": [
+              [
+                "opt_blossom_required",
+                "opt_randomize_roots",
+                "opt_goal"
+              ],
+              [
+                "opt_cursanity",
+                "opt_cursanity_15"
+              ],
+              [
+                "opt_ostsanity",
+                "opt_ostsanity_15",
+                "opt_ostsanity_30"
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

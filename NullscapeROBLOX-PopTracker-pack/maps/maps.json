@@ -1,0 +1,79 @@
+[
+  {
+    "name": "map_general",
+    "location_size": 30,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/backgrounds/NullscapeBackgroundA1.png"
+  },
+  {
+    "name": "map_charger",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_charger.png"
+  },
+  {
+    "name": "map_diver",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_diver.png"
+  },
+  {
+    "name": "map_glider",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_glider.png"
+  },
+  {
+    "name": "map_grappler",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_grappler.png"
+  },
+  {
+    "name": "map_prisoner",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_prisoner.png"
+  },
+  {
+    "name": "map_spirit",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_spirit.png"
+  },
+  {
+    "name": "map_wanted",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_wanted.png"
+  },
+  {
+    "name": "map_cursanity_global",
+    "location_size": 26,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_cursanity_global.png"
+  },
+  {
+    "name": "map_cursanity_enemy",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_cursanity_enemy.png"
+  },
+  {
+    "name": "map_ostsanity",
+    "location_size": 22,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/map_ostsanity.png"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "NullscapeROBLOX Tracker",
+  "game_name": "Manual_NullscapeROBLOX_sucrosesnowstorm",
+  "package_uid": "com.sucrosesnowstorm.nullscaperoblox.tracker",
+  "package_version": "0.1.0",
+  "author": "sucrosesnowstorm",
+  "platform": "",
+  "variants": {
+    "default": {
+      "display_name": "Default",
+      "flags": [
+        "ap",
+        "apmanual"
+      ]
+    }
+  },
+  "min_poptracker_version": "0.24.0",
+  "target_poptracker_version": "0.34.1"
+}
