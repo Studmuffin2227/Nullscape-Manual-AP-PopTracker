@@ -357,7 +357,7 @@ if Archipelago then
 end
 
 -- With the "apmanual" manifest flag, clicking a PopTracker check can send
--- that Manual location to the Archipelago server.
+-- that Manual location to the Archipelago server. Hi
 ScriptHost:AddOnLocationSectionChangedHandler("nullscape_manual_ap_checks", function(section)
     if APPLYING_SERVER_CHECK then return end
     if not Archipelago or Archipelago.PlayerNumber == nil or Archipelago.PlayerNumber < 0 then return end
