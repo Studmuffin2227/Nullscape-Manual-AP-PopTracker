@@ -73,7 +73,6 @@
             "upg_radar_module_enemies",
             "upg_radar_module_tripmines",
             "upg_radar_module_altars",
-            "upg_radar_module_players",
             "upg_radar_module_instruments"
           ]
         ]
@@ -180,7 +179,6 @@
             "upg_radar_module_enemies",
             "upg_radar_module_tripmines",
             "upg_radar_module_altars",
-            "upg_radar_module_players",
             "upg_radar_module_instruments"
           ]
         ]

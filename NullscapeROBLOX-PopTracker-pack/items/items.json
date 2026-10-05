@@ -40,7 +40,7 @@
     "codes": "seed_of_omnipotence",
     "type": "consumable",
     "min_quantity": 0,
-    "max_quantity": 6,
+    "max_quantity": 5,
     "initial_quantity": 0,
     "img": "images/consumable.png"
   },

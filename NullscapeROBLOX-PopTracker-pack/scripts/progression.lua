@@ -36,7 +36,6 @@ local PROGRESSIONS = {
         { code = "upg_radar_module_enemies", name = "Radar Module: Enemies", cap = 0 },
         { code = "upg_radar_module_tripmines", name = "Radar Module: Tripmines", cap = 0 },
         { code = "upg_radar_module_altars", name = "Radar Module: Altars", cap = 0 },
-        { code = "upg_radar_module_players", name = "Radar Module: Players", cap = 0 },
         { code = "upg_radar_module_instruments", name = "Radar Module: Instruments", cap = 0 },
     }},
     { seed = "seed_of_immortality", upgrades = {
