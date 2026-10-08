@@ -631,17 +631,6 @@
             "max_height": 780
           }
         }
-      },
-      {
-        "title": "YAML Settings",
-        "content": {
-          "type": "group",
-          "header": "Set these to match your seed's .yaml before tracking",
-          "content": {
-            "type": "layout",
-            "key": "settings_popup"
-          }
-        }
       }
     ]
   },
