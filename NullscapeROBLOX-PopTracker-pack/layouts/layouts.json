@@ -98,7 +98,21 @@
         "item_size": 128,
         "rows": [
           [
-            "fragment_of_blossom"
+            "fragment_of_blossom",
+            "progressive_ungate_levels",
+            "progressive_lower_difficulty"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 128,
+        "rows": [
+          [
+            "flesh_trap",
+            "oblivion_trap",
+            "prisoner_trap"
           ]
         ]
       }
