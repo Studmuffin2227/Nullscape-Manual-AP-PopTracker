@@ -110,9 +110,9 @@
         "item_size": 128,
         "rows": [
           [
-            "prisoner_trap",
-            "oblivion_trap",
-            "flesh_trap"
+              "oblivion_trap",
+              "flesh_trap",
+              "prisoner_trap"
           ]
         ]
       }
@@ -221,9 +221,9 @@
             "fragment_of_blossom",
             "progressive_ungate_levels",
             "progressive_lower_difficulty",
-            "prisoner_trap",
             "oblivion_trap",
-            "flesh_trap"
+            "flesh_trap",
+            "prisoner_trap"
           ]
         ]
       }
@@ -634,54 +634,50 @@
         }
       },
       {
-        "title": "Other Items",
+      "settings_popup": {
+        "type": "container",
+        "background": "#303841",
+        "margin": "6, 6",
         "content": {
-          "type": "itemgrid",
-          "item_margin": "6,6",
-          "item_size": 80,
-          "v_alignment": "stretch",
-          "rows": [
-            [
-              "progressive_lower_difficulty",
-              "progressive_ungate_levels"
-            ],
-            [
-              "oblivion_trap",
-              "flesh_trap",
-              "prisoner_trap"
-            ]
+          "type": "array",
+          "orientation": "vertical",
+          "content": [
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_blossom_required", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "Blossoms Required", "v_alignment": "center" }
+            ]},
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_randomize_roots", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "Randomize Roots", "v_alignment": "center" }
+            ]},
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_goal", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "Goal", "v_alignment": "center" }
+            ]},
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_cursanity", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "Cursanity", "v_alignment": "center" }
+            ]},
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_cursanity_15", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "Cursanity (15)", "v_alignment": "center" }
+            ]},
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_ostsanity", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "OSTsanity", "v_alignment": "center" }
+            ]},
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_ostsanity_15", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "OSTsanity (15)", "v_alignment": "center" }
+            ]},
+            { "type": "array", "orientation": "horizontal", "content": [
+              { "type": "item", "item": "opt_ostsanity_30", "max_height": 32, "max_width": 32, "margin": 4 },
+              { "type": "text", "text": "OSTsanity (30)", "v_alignment": "center" }
+            ]}
           ]
         }
-      },
-      {
-        "title": "YAML Settings",
-        "content": {
-          "type": "group",
-          "header": "Set these to match your seed's .yaml before tracking",
-          "content": {
-            "type": "itemgrid",
-            "item_margin": "6,6",
-            "item_size": 80,
-            "v_alignment": "stretch",
-            "rows": [
-              [
-                "opt_blossom_required",
-                "opt_randomize_roots",
-                "opt_goal"
-              ],
-              [
-                "opt_cursanity",
-                "opt_cursanity_15"
-              ],
-              [
-                "opt_ostsanity",
-                "opt_ostsanity_15",
-                "opt_ostsanity_30"
-              ]
-            ]
-          }
-        }
       }
+    }
     ]
   }
 }
