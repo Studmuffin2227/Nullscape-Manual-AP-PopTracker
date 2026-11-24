@@ -1,51 +1,64 @@
--- Custom logic functions, mirroring this apworld's hooks/Rules.py
--- Rules starting with '$' in access_rules call these by name.
+-- Custom logic functions, mirroring the APWorld's hooks/Rules.py.
+-- Access rules starting with '$' call these by name.
+-- Option values live in the opt_* items (Open Pack Settings). They are
+-- filled in from slot_data automatically when connected to Archipelago.
 
--- blossomFragmentReq(): has the player collected enough FRAGMENT OF BLOSSOM,
--- per the "blossom fragments required" option? Since this pack has no way to
--- read the live slot option automatically, use the 'opt_blossom_required'
--- tracker item (editable by right/left-clicking it, defaults to 20 -- the
--- apworld default). Set it to match your seed's option before tracking.
-function blossomFragmentReq()
-    local required = Tracker:FindObjectForCode("opt_blossom_required").AcquiredCount
-    local have = Tracker.ProviderCountForCode and Tracker:ProviderCountForCode("fragment_of_blossom") or 0
-    return have >= required
+local function count(code)
+    local obj = Tracker:FindObjectForCode(code)
+    if not obj then return 0 end
+    if obj.AcquiredCount ~= nil and obj.Type == "consumable" then return obj.AcquiredCount end
+    return Tracker:ProviderCountForCode(code)
 end
 
--- rootsReq(): if 'randomize roots' option is off, roots aren't needed at all.
--- Otherwise, the player needs any one Class + its matching Root item.
+local function active(code, default)
+    local obj = Tracker:FindObjectForCode(code)
+    if not obj then return default end
+    return obj.Active
+end
+
+function OptStage(code)
+    local obj = Tracker:FindObjectForCode(code)
+    if not obj then return 0 end
+    return obj.CurrentStage or 0
+end
+
+function OptActive(code, default)
+    return active(code, default)
+end
+
+-- blossomFragmentReq(): enough FRAGMENT OF BLOSSOM for the seed's requirement
+function blossomFragmentReq()
+    local required = count("opt_blossom_required")
+    return count("fragment_of_blossom") >= required
+end
+
+-- rootsReq(): if Randomize ROOTS is off, ROOTS aren't needed.
+-- Otherwise the player needs any one class + that class's ROOTS item.
+local CLASS_ROOTS = {
+    { "diver_class", "roots_in_versatility" },
+    { "charger_class", "roots_in_persistence" },
+    { "grappler_class", "roots_in_trust" },
+    { "spirit_class", "roots_in_self_awareness" },
+    { "glider_class", "roots_in_bravery" },
+    { "wanted_class", "roots_in_defiance" },
+    { "prisoner_class", "roots_in_certainty" },
+}
 function rootsReq()
-    local randomize = Tracker:FindObjectForCode("opt_randomize_roots").Active
-    if not randomize then
+    if not active("opt_randomize_roots", true) then
         return true
     end
-
-    local pairs_ = {
-        {"diver_class", "roots_in_versatility"},
-        {"charger_class", "roots_in_persistence"},
-        {"grappler_class", "roots_in_trust"},
-        {"spirit_class", "roots_in_self_awareness"},
-        {"glider_class", "roots_in_bravery"},
-        {"wanted_class", "roots_in_defiance"},
-        {"prisoner_class", "roots_in_certainty"},
-    }
-
-    for _, p in ipairs(pairs_) do
-        local class_code, root_code = p[1], p[2]
-        if Tracker:ProviderCountForCode(class_code) > 0 and Tracker:ProviderCountForCode(root_code) > 0 then
+    for _, p in ipairs(CLASS_ROOTS) do
+        if Tracker:ProviderCountForCode(p[1]) > 0 and Tracker:ProviderCountForCode(p[2]) > 0 then
             return true
         end
     end
     return false
 end
 
--- goalIsLevel(n): true if the 'opt_goal' setting (Reach Level 10/15/20) is
--- currently set to Ungate Level n. Used as a visibility_rule so only the
--- Bloom check matching your seed's actual goal option is shown.
-function goalIsLevel(n)
-    local obj = Tracker:FindObjectForCode("opt_goal")
-    if not obj then
-        return true
-    end
-    return obj.CurrentStage == (tonumber(n) - 1)
+-- canFightCelestial(): each "Celestial Practice Requires ..." option adds a requirement
+function canFightCelestial()
+    if active("opt_prac_frags", false) and not blossomFragmentReq() then return false end
+    if active("opt_prac_ungates", false) and Tracker:ProviderCountForCode("ungate_4") == 0 then return false end
+    if active("opt_prac_roots", false) and not rootsReq() then return false end
+    return true
 end

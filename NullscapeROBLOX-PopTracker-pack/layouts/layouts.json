@@ -5,59 +5,86 @@
     "content": [
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_margin": "2,2",
-        "item_size": 4,
+        "item_size": 72,
         "rows": [
           [
             "upg_paycheck",
             "upg_business_license",
             "upg_medal",
             "upg_fanny_pack",
+            "upg_health_insurance",
+            "upg_altar_boons",
             "upg_gift_magnet",
+            "upg_debuff_aggro_magnet",
             "upg_gift_idol"
           ]
         ]
       },
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_margin": "2,2",
-        "item_size": 4,
+        "item_size": 72,
         "rows": [
           [
-            "upg_adrenaline",
-            "upg_swiftness_rings",
             "upg_double_jump",
             "upg_grace_wings",
             "upg_pocket_bell",
             "upg_ice_skates",
-            "upg_advanced_gravity_coil",
-            "upg_sport_shoes",
-            "upg_matrix_tetrahedron"
+            "upg_matrix_tetrahedron",
+            "upg_jet_boosters",
+            "upg_quixotic_wing"
           ]
         ]
       },
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_margin": "2,2",
-        "item_size": 4,
+        "item_size": 72,
+        "rows": [
+          [
+            "upg_adrenaline",
+            "upg_swiftness_rings",
+            "upg_spring_shoes",
+            "upg_advanced_gravity_coil",
+            "upg_sport_shoes",
+            "upg_fleeting_fate",
+            "upg_transient_pennon"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "2,2",
+        "item_size": 72,
         "rows": [
           [
             "upg_better_jump_pads",
             "upg_grapple_points",
             "upg_tria_orbs",
+            "upg_star_marts",
+            "upg_birthday_pony",
             "upg_more_altars",
-            "upg_larger_grapple_points"
+            "upg_larger_grapple_points",
+            "upg_soul_tracers",
+            "upg_magnified_levels"
           ]
         ]
       },
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_margin": "2,2",
-        "item_size": 4,
+        "item_size": 72,
         "rows": [
           [
             "upg_helmet",
             "upg_ninja_belt",
+            "upg_propeller_hat",
             "upg_shark_tail",
             "upg_miniature_hourglass"
           ]
@@ -65,8 +92,9 @@
       },
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_margin": "2,2",
-        "item_size": 4,
+        "item_size": 72,
         "rows": [
           [
             "upg_radar",
@@ -79,147 +107,32 @@
       },
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_margin": "2,2",
-        "item_size": 4,
+        "item_size": 72,
         "rows": [
           [
             "upg_defuse_kit",
-            "upg_last_robloxian_standing",
+            "upg_final_stand",
             "upg_subspacial_barrier",
             "upg_shield",
             "upg_panic_necklace",
+            "upg_shadow_cloak",
             "upg_drowned_aegis"
           ]
         ]
       },
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_margin": "2,2",
-        "item_size": 128,
-        "rows": [
-          [
-            "fragment_of_blossom",
-            "progressive_ungate_levels",
-            "progressive_lower_difficulty"
-          ]
-        ]
-      },
-      {
-        "type": "itemgrid",
-        "item_margin": "2,2",
-        "item_size": 128,
-        "rows": [
-          [
-            "oblivion_trap",
-            "flesh_trap",
-            "prisoner_trap"
-          ]
-        ]
-      }
-    ]
-  },
-  "upgrades_block_big": {
-    "type": "array",
-    "orientation": "vertical",
-    "content": [
-      {
-        "type": "itemgrid",
-        "item_margin": "4,4",
-        "item_size": 64,
-        "rows": [
-          [
-            "upg_paycheck",
-            "upg_business_license",
-            "upg_medal",
-            "upg_fanny_pack",
-            "upg_gift_magnet",
-            "upg_gift_idol"
-          ]
-        ]
-      },
-      {
-        "type": "itemgrid",
-        "item_margin": "4,4",
-        "item_size": 64,
-        "rows": [
-          [
-            "upg_adrenaline",
-            "upg_swiftness_rings",
-            "upg_double_jump",
-            "upg_grace_wings",
-            "upg_pocket_bell",
-            "upg_ice_skates",
-            "upg_advanced_gravity_coil",
-            "upg_sport_shoes",
-            "upg_matrix_tetrahedron"
-          ]
-        ]
-      },
-      {
-        "type": "itemgrid",
-        "item_margin": "4,4",
-        "item_size": 64,
-        "rows": [
-          [
-            "upg_better_jump_pads",
-            "upg_grapple_points",
-            "upg_tria_orbs",
-            "upg_more_altars",
-            "upg_larger_grapple_points"
-          ]
-        ]
-      },
-      {
-        "type": "itemgrid",
-        "item_margin": "4,4",
-        "item_size": 64,
-        "rows": [
-          [
-            "upg_helmet",
-            "upg_ninja_belt",
-            "upg_shark_tail",
-            "upg_miniature_hourglass"
-          ]
-        ]
-      },
-      {
-        "type": "itemgrid",
-        "item_margin": "4,4",
-        "item_size": 64,
-        "rows": [
-          [
-            "upg_radar",
-            "upg_radar_module_enemies",
-            "upg_radar_module_tripmines",
-            "upg_radar_module_altars",
-            "upg_radar_module_instruments"
-          ]
-        ]
-      },
-      {
-        "type": "itemgrid",
-        "item_margin": "4,4",
-        "item_size": 64,
-        "rows": [
-          [
-            "upg_defuse_kit",
-            "upg_last_robloxian_standing",
-            "upg_subspacial_barrier",
-            "upg_shield",
-            "upg_panic_necklace",
-            "upg_drowned_aegis"
-          ]
-        ]
-      },
-      {
-        "type": "itemgrid",
-        "item_margin": "2,2",
-        "item_size": 100,
+        "item_size": 72,
         "rows": [
           [
             "fragment_of_blossom",
             "progressive_ungate_levels",
             "progressive_lower_difficulty",
+            "progressive_fast_track",
             "oblivion_trap",
             "flesh_trap",
             "prisoner_trap"
@@ -238,41 +151,182 @@
           "orientation": "horizontal",
           "content": [
             {
-              "type": "map",
-              "maps": [
-                "map_general"
-              ],
-              "max_height": 460
-            },
-            {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Classes (click to open)",
+                  "header": "Upgrades (click to set)",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Classes (checks in logic)",
                   "content": {
                     "type": "itemgrid",
-                    "item_margin": "4,4",
-                    "item_size": 6,
+                    "item_margin": "6,6",
+                    "item_size": 88,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "nav_charger",
                         "nav_diver",
                         "nav_glider",
-                        "nav_grappler"
-                      ],
-                      [
+                        "nav_grappler",
                         "nav_prisoner",
                         "nav_spirit",
                         "nav_wanted"
                       ]
                     ]
                   }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Any Class",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_any__2_tripmine_curses"
+                      ],
+                      [
+                        "row_any__3_husk_curses"
+                      ],
+                      [
+                        "row_any__5_temporary_curses"
+                      ],
+                      [
+                        "row_any__become_concussed"
+                      ],
+                      [
+                        "row_any__burn"
+                      ],
+                      [
+                        "row_any__delusional"
+                      ],
+                      [
+                        "row_any__encounter_voidbound_enemy"
+                      ],
+                      [
+                        "row_any__escape_with_spare_shield"
+                      ],
+                      [
+                        "row_any__escape_with_spare_subspacial_barrier"
+                      ],
+                      [
+                        "row_any__greater_curse"
+                      ],
+                      [
+                        "row_any__kol_na_curse"
+                      ],
+                      [
+                        "row_any__seamine_curse"
+                      ],
+                      [
+                        "row_any__survive_voidbreaker_encounter"
+                      ],
+                      [
+                        "row_any__wish_for_avarice_wish_for_life"
+                      ],
+                      [
+                        "row_any__wish_for_infinity"
+                      ],
+                      [
+                        "row_any__wish_for_luck"
+                      ],
+                      [
+                        "row_any__wish_for_prosperity"
+                      ],
+                      [
+                        "row_any__wish_for_safety"
+                      ]
+                    ]
+                  }
                 },
                 {
-                  "type": "layout",
-                  "key": "upgrades_block"
+                  "type": "array",
+                  "orientation": "vertical",
+                  "v_alignment": "top",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Goal",
+                      "v_alignment": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "h_alignment": "left",
+                        "v_alignment": "top",
+                        "item_margin": "2,2",
+                        "item_size": "380,28",
+                        "rows": [
+                          [
+                            "row_goal"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Celestial",
+                      "v_alignment": "top",
+                      "content": {
+                        "type": "itemgrid",
+                        "h_alignment": "left",
+                        "v_alignment": "top",
+                        "item_margin": "2,2",
+                        "item_size": "380,28",
+                        "rows": [
+                          [
+                            "row_celestial__eye_of_the_cutter"
+                          ],
+                          [
+                            "row_celestial__seamine_boost"
+                          ],
+                          [
+                            "row_celestial__high_five_the_celestial"
+                          ],
+                          [
+                            "row_celestial__frankly_i_feel_like_you_should_always_be_panicking_here_but_i_suppose_this_will_have_to_be_good_enough"
+                          ],
+                          [
+                            "row_celestial__shoot_the_moon"
+                          ],
+                          [
+                            "row_celestial__pierce_the_void"
+                          ],
+                          [
+                            "row_celestial__abilityless_bitter"
+                          ],
+                          [
+                            "row_celestial__abilityless_futile"
+                          ],
+                          [
+                            "row_celestial__abilityless_cease"
+                          ],
+                          [
+                            "row_celestial__defeat_the_celestial"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -288,37 +342,98 @@
             {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Upgrades",
+                  "header": "Upgrades (click to set)",
                   "content": {
                     "type": "layout",
-                    "key": "upgrades_block_big"
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Charger Checks",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_charger__abilityless_level_level_3_charger"
+                      ],
+                      [
+                        "row_charger__all_gold_gifts_charger"
+                      ],
+                      [
+                        "row_charger__altar_of_purgatory_charger"
+                      ],
+                      [
+                        "row_charger__dance_with_mart_charger"
+                      ],
+                      [
+                        "row_charger__detonate_5_tripmines_in_a_level_charger"
+                      ],
+                      [
+                        "row_charger__drop_bounce_on_grapple_point_charger"
+                      ],
+                      [
+                        "row_charger__encounter_flesh_charger"
+                      ],
+                      [
+                        "row_charger__encounter_telefragger_charger"
+                      ],
+                      [
+                        "row_charger__escape_after_complete_destruction_level_3_charger"
+                      ],
+                      [
+                        "row_charger__icbm_curse_charger"
+                      ],
+                      [
+                        "row_charger__medal_curse_charger"
+                      ],
+                      [
+                        "row_charger__overtuned_charger"
+                      ],
+                      [
+                        "row_charger__reach_level_13_charger"
+                      ],
+                      [
+                        "row_charger__reach_level_5_charger"
+                      ],
+                      [
+                        "row_charger__ride_grindrail_charger"
+                      ],
+                      [
+                        "row_charger__take_baby_charger"
+                      ],
+                      [
+                        "row_charger__take_husk_charger"
+                      ]
+                    ]
                   }
                 },
                 {
                   "type": "item",
                   "item": "charger_class_display",
-                  "item_size": 150,
+                  "item_size": 220,
                   "h_alignment": "center",
-                  "v_alignment": "center"
+                  "v_alignment": "top",
+                  "margin": "20,30,0,0"
                 }
               ]
-            },
-            {
-              "type": "group",
-              "header": "Charger Class Checks",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_charger"
-                ],
-                "max_width": 640,
-                "max_height": 640,
-                "h_alignment": "center",
-                "v_alignment": "center"
-              }
             }
           ]
         }
@@ -332,37 +447,98 @@
             {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Upgrades",
+                  "header": "Upgrades (click to set)",
                   "content": {
                     "type": "layout",
-                    "key": "upgrades_block_big"
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Diver Checks",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_diver__abilityless_level_level_3_diver"
+                      ],
+                      [
+                        "row_diver__all_gold_gifts_diver"
+                      ],
+                      [
+                        "row_diver__altar_of_purgatory_diver"
+                      ],
+                      [
+                        "row_diver__dance_with_mart_diver"
+                      ],
+                      [
+                        "row_diver__dive_into_bell_diver"
+                      ],
+                      [
+                        "row_diver__dive_into_grapple_point_diver"
+                      ],
+                      [
+                        "row_diver__encounter_flesh_diver"
+                      ],
+                      [
+                        "row_diver__encounter_telefragger_diver"
+                      ],
+                      [
+                        "row_diver__escape_after_complete_destruction_level_3_diver"
+                      ],
+                      [
+                        "row_diver__medal_curse_diver"
+                      ],
+                      [
+                        "row_diver__overtuned_diver"
+                      ],
+                      [
+                        "row_diver__reach_level_13_diver"
+                      ],
+                      [
+                        "row_diver__reach_level_5_diver"
+                      ],
+                      [
+                        "row_diver__survive_a_ninja_belt_bonk_diver"
+                      ],
+                      [
+                        "row_diver__take_baby_diver"
+                      ],
+                      [
+                        "row_diver__take_husk_diver"
+                      ],
+                      [
+                        "row_diver__telefragger_curse_diver"
+                      ]
+                    ]
                   }
                 },
                 {
                   "type": "item",
                   "item": "diver_class_display",
-                  "item_size": 150,
+                  "item_size": 220,
                   "h_alignment": "center",
-                  "v_alignment": "center"
+                  "v_alignment": "top",
+                  "margin": "20,30,0,0"
                 }
               ]
-            },
-            {
-              "type": "group",
-              "header": "Diver Class Checks",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_diver"
-                ],
-                "max_width": 640,
-                "max_height": 640,
-                "h_alignment": "center",
-                "v_alignment": "center"
-              }
             }
           ]
         }
@@ -376,37 +552,98 @@
             {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Upgrades",
+                  "header": "Upgrades (click to set)",
                   "content": {
                     "type": "layout",
-                    "key": "upgrades_block_big"
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Glider Checks",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_glider__abilityless_level_level_3_glider"
+                      ],
+                      [
+                        "row_glider__all_gold_gifts_glider"
+                      ],
+                      [
+                        "row_glider__altar_of_purgatory_glider"
+                      ],
+                      [
+                        "row_glider__dance_with_mart_glider"
+                      ],
+                      [
+                        "row_glider__encounter_flesh_glider"
+                      ],
+                      [
+                        "row_glider__encounter_telefragger_glider"
+                      ],
+                      [
+                        "row_glider__escape_after_complete_destruction_level_3_glider"
+                      ],
+                      [
+                        "row_glider__flesh_curse_glider"
+                      ],
+                      [
+                        "row_glider__glide_into_a_grapple_point_glider"
+                      ],
+                      [
+                        "row_glider__medal_curse_glider"
+                      ],
+                      [
+                        "row_glider__overtuned_glider"
+                      ],
+                      [
+                        "row_glider__reach_level_13_glider"
+                      ],
+                      [
+                        "row_glider__reach_level_5_glider"
+                      ],
+                      [
+                        "row_glider__survive_a_bonk_glider"
+                      ],
+                      [
+                        "row_glider__survive_seamine_detonation_glider"
+                      ],
+                      [
+                        "row_glider__take_baby_glider"
+                      ],
+                      [
+                        "row_glider__take_husk_glider"
+                      ]
+                    ]
                   }
                 },
                 {
                   "type": "item",
                   "item": "glider_class_display",
-                  "item_size": 150,
+                  "item_size": 220,
                   "h_alignment": "center",
-                  "v_alignment": "center"
+                  "v_alignment": "top",
+                  "margin": "20,30,0,0"
                 }
               ]
-            },
-            {
-              "type": "group",
-              "header": "Glider Class Checks",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_glider"
-                ],
-                "max_width": 640,
-                "max_height": 640,
-                "h_alignment": "center",
-                "v_alignment": "center"
-              }
             }
           ]
         }
@@ -420,37 +657,98 @@
             {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Upgrades",
+                  "header": "Upgrades (click to set)",
                   "content": {
                     "type": "layout",
-                    "key": "upgrades_block_big"
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Grappler Checks",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_grappler__abilityless_level_level_3_grappler"
+                      ],
+                      [
+                        "row_grappler__all_gold_gifts_grappler"
+                      ],
+                      [
+                        "row_grappler__altar_of_purgatory_grappler"
+                      ],
+                      [
+                        "row_grappler__dance_with_mart_grappler"
+                      ],
+                      [
+                        "row_grappler__encounter_flesh_grappler"
+                      ],
+                      [
+                        "row_grappler__encounter_telefragger_grappler"
+                      ],
+                      [
+                        "row_grappler__escape_after_complete_destruction_level_3_grappler"
+                      ],
+                      [
+                        "row_grappler__grapple_point_combo_grappler"
+                      ],
+                      [
+                        "row_grappler__medal_curse_grappler"
+                      ],
+                      [
+                        "row_grappler__overtuned_grappler"
+                      ],
+                      [
+                        "row_grappler__reach_level_13_grappler"
+                      ],
+                      [
+                        "row_grappler__reach_level_5_grappler"
+                      ],
+                      [
+                        "row_grappler__seamine_grappler_grappler"
+                      ],
+                      [
+                        "row_grappler__take_baby_grappler"
+                      ],
+                      [
+                        "row_grappler__take_flesh_and_operator_grappler"
+                      ],
+                      [
+                        "row_grappler__take_husk_grappler"
+                      ],
+                      [
+                        "row_grappler__underneath_the_beacon_grappler"
+                      ]
+                    ]
                   }
                 },
                 {
                   "type": "item",
                   "item": "grappler_class_display",
-                  "item_size": 150,
+                  "item_size": 220,
                   "h_alignment": "center",
-                  "v_alignment": "center"
+                  "v_alignment": "top",
+                  "margin": "20,30,0,0"
                 }
               ]
-            },
-            {
-              "type": "group",
-              "header": "Grappler Class Checks",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_grappler"
-                ],
-                "max_width": 640,
-                "max_height": 640,
-                "h_alignment": "center",
-                "v_alignment": "center"
-              }
             }
           ]
         }
@@ -464,37 +762,92 @@
             {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Upgrades",
+                  "header": "Upgrades (click to set)",
                   "content": {
                     "type": "layout",
-                    "key": "upgrades_block_big"
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Prisoner Checks",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_prisoner__all_gold_gifts_prisoner"
+                      ],
+                      [
+                        "row_prisoner__altar_of_purgatory_prisoner"
+                      ],
+                      [
+                        "row_prisoner__dance_with_mart_prisoner"
+                      ],
+                      [
+                        "row_prisoner__encounter_flesh_prisoner"
+                      ],
+                      [
+                        "row_prisoner__encounter_telefragger_prisoner"
+                      ],
+                      [
+                        "row_prisoner__escape_after_complete_destruction_level_3_prisoner"
+                      ],
+                      [
+                        "row_prisoner__medal_curse_prisoner"
+                      ],
+                      [
+                        "row_prisoner__overtuned_prisoner"
+                      ],
+                      [
+                        "row_prisoner__reach_level_5_prisoner"
+                      ],
+                      [
+                        "row_prisoner__take_baby_prisoner"
+                      ],
+                      [
+                        "row_prisoner__take_bell_and_springer_prisoner"
+                      ],
+                      [
+                        "row_prisoner__take_husk_prisoner"
+                      ],
+                      [
+                        "row_prisoner__take_useless_upgrade_prisoner"
+                      ],
+                      [
+                        "row_prisoner__use_altar_prisoner"
+                      ],
+                      [
+                        "row_prisoner__use_jump_pad_prisoner"
+                      ]
+                    ]
                   }
                 },
                 {
                   "type": "item",
                   "item": "prisoner_class_display",
-                  "item_size": 150,
+                  "item_size": 220,
                   "h_alignment": "center",
-                  "v_alignment": "center"
+                  "v_alignment": "top",
+                  "margin": "20,30,0,0"
                 }
               ]
-            },
-            {
-              "type": "group",
-              "header": "Prisoner Class Checks",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_prisoner"
-                ],
-                "max_width": 640,
-                "max_height": 640,
-                "h_alignment": "center",
-                "v_alignment": "center"
-              }
             }
           ]
         }
@@ -508,37 +861,98 @@
             {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Upgrades",
+                  "header": "Upgrades (click to set)",
                   "content": {
                     "type": "layout",
-                    "key": "upgrades_block_big"
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Spirit Checks",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_spirit__abilityless_level_level_3_spirit"
+                      ],
+                      [
+                        "row_spirit__above_the_beacon_s_clouds_spirit"
+                      ],
+                      [
+                        "row_spirit__all_gold_gifts_spirit"
+                      ],
+                      [
+                        "row_spirit__altar_of_purgatory_spirit"
+                      ],
+                      [
+                        "row_spirit__chance_curse_spirit"
+                      ],
+                      [
+                        "row_spirit__clear_a_gold_tile_with_a_single_fling_spirit"
+                      ],
+                      [
+                        "row_spirit__dance_with_mart_spirit"
+                      ],
+                      [
+                        "row_spirit__encounter_flesh_spirit"
+                      ],
+                      [
+                        "row_spirit__encounter_telefragger_spirit"
+                      ],
+                      [
+                        "row_spirit__escape_after_complete_destruction_level_3_spirit"
+                      ],
+                      [
+                        "row_spirit__medal_curse_spirit"
+                      ],
+                      [
+                        "row_spirit__overtuned_spirit"
+                      ],
+                      [
+                        "row_spirit__reach_level_13_spirit"
+                      ],
+                      [
+                        "row_spirit__reach_level_5_spirit"
+                      ],
+                      [
+                        "row_spirit__take_baby_spirit"
+                      ],
+                      [
+                        "row_spirit__take_husk_spirit"
+                      ],
+                      [
+                        "row_spirit__take_mart_and_springer_spirit"
+                      ]
+                    ]
                   }
                 },
                 {
                   "type": "item",
                   "item": "spirit_class_display",
-                  "item_size": 150,
+                  "item_size": 220,
                   "h_alignment": "center",
-                  "v_alignment": "center"
+                  "v_alignment": "top",
+                  "margin": "20,30,0,0"
                 }
               ]
-            },
-            {
-              "type": "group",
-              "header": "Spirit Class Checks",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_spirit"
-                ],
-                "max_width": 640,
-                "max_height": 640,
-                "h_alignment": "center",
-                "v_alignment": "center"
-              }
             }
           ]
         }
@@ -552,37 +966,95 @@
             {
               "type": "array",
               "orientation": "vertical",
+              "v_alignment": "top",
               "content": [
                 {
                   "type": "group",
-                  "header": "Upgrades",
+                  "header": "Upgrades (click to set)",
                   "content": {
                     "type": "layout",
-                    "key": "upgrades_block_big"
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Wanted Checks",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "380,28",
+                    "rows": [
+                      [
+                        "row_wanted__2_medal_curses_wanted"
+                      ],
+                      [
+                        "row_wanted__all_gold_gifts_wanted"
+                      ],
+                      [
+                        "row_wanted__altar_of_purgatory_wanted"
+                      ],
+                      [
+                        "row_wanted__bounce_tourist_wanted"
+                      ],
+                      [
+                        "row_wanted__dance_with_mart_wanted"
+                      ],
+                      [
+                        "row_wanted__encounter_flesh_wanted"
+                      ],
+                      [
+                        "row_wanted__encounter_telefragger_wanted"
+                      ],
+                      [
+                        "row_wanted__escape_after_complete_destruction_level_3_wanted"
+                      ],
+                      [
+                        "row_wanted__medal_curse_wanted"
+                      ],
+                      [
+                        "row_wanted__overtuned_wanted"
+                      ],
+                      [
+                        "row_wanted__reach_level_13_wanted"
+                      ],
+                      [
+                        "row_wanted__reach_level_5_wanted"
+                      ],
+                      [
+                        "row_wanted__survive_kol_na_encounter_wanted"
+                      ],
+                      [
+                        "row_wanted__take_baby_wanted"
+                      ],
+                      [
+                        "row_wanted__take_husk_wanted"
+                      ],
+                      [
+                        "row_wanted__take_husk_and_icbm_wanted"
+                      ]
+                    ]
                   }
                 },
                 {
                   "type": "item",
                   "item": "wanted_class_display",
-                  "item_size": 150,
+                  "item_size": 220,
                   "h_alignment": "center",
-                  "v_alignment": "center"
+                  "v_alignment": "top",
+                  "margin": "20,30,0,0"
                 }
               ]
-            },
-            {
-              "type": "group",
-              "header": "Wanted Class Checks",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_wanted"
-                ],
-                "max_width": 640,
-                "max_height": 640,
-                "h_alignment": "center",
-                "v_alignment": "center"
-              }
             }
           ]
         }
@@ -591,29 +1063,120 @@
         "title": "Cursanity",
         "content": {
           "type": "array",
-          "orientation": "vertical",
+          "orientation": "horizontal",
           "content": [
             {
-              "type": "group",
-              "header": "Global Curses",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_cursanity_global"
-                ],
-                "max_height": 400
-              }
+              "type": "array",
+              "orientation": "vertical",
+              "v_alignment": "top",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades (click to set)",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
             },
             {
-              "type": "group",
-              "header": "Enemy Curses",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_cursanity_enemy"
-                ],
-                "max_height": 610
-              }
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Curses",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "3,3",
+                    "item_size": "84,100",
+                    "rows": [
+                      [
+                        "curse_slot_1",
+                        "curse_slot_2",
+                        "curse_slot_3",
+                        "curse_slot_4",
+                        "curse_slot_5",
+                        "curse_slot_6",
+                        "curse_slot_7",
+                        "curse_slot_8",
+                        "curse_slot_9",
+                        "curse_slot_10",
+                        "curse_slot_11",
+                        "curse_slot_12"
+                      ],
+                      [
+                        "curse_slot_13",
+                        "curse_slot_14",
+                        "curse_slot_15",
+                        "curse_slot_16",
+                        "curse_slot_17",
+                        "curse_slot_18",
+                        "curse_slot_19",
+                        "curse_slot_20",
+                        "curse_slot_21",
+                        "curse_slot_22",
+                        "curse_slot_23",
+                        "curse_slot_24"
+                      ],
+                      [
+                        "curse_slot_25",
+                        "curse_slot_26",
+                        "curse_slot_27",
+                        "curse_slot_28",
+                        "curse_slot_29",
+                        "curse_slot_30",
+                        "curse_slot_31",
+                        "curse_slot_32",
+                        "curse_slot_33",
+                        "curse_slot_34",
+                        "curse_slot_35",
+                        "curse_slot_36"
+                      ],
+                      [
+                        "curse_slot_37",
+                        "curse_slot_38",
+                        "curse_slot_39",
+                        "curse_slot_40",
+                        "curse_slot_41",
+                        "curse_slot_42",
+                        "curse_slot_43",
+                        "curse_slot_44",
+                        "curse_slot_45",
+                        "curse_slot_46",
+                        "curse_slot_47",
+                        "curse_slot_48"
+                      ],
+                      [
+                        "curse_slot_49",
+                        "curse_slot_50",
+                        "curse_slot_51",
+                        "curse_slot_52",
+                        "curse_slot_53",
+                        "curse_slot_54",
+                        "curse_slot_55",
+                        "curse_slot_56",
+                        "curse_slot_57",
+                        "curse_slot_58",
+                        "curse_slot_59",
+                        "curse_slot_60"
+                      ],
+                      [
+                        "curse_slot_61",
+                        "curse_slot_62",
+                        "curse_slot_63",
+                        "curse_slot_64"
+                      ]
+                    ]
+                  }
+                }
+              ]
             }
           ]
         }
@@ -621,15 +1184,237 @@
       {
         "title": "OSTsanity",
         "content": {
-          "type": "group",
-          "header": "OSTsanity",
-          "content": {
-            "type": "map",
-            "maps": [
-              "map_ostsanity"
-            ],
-            "max_height": 780
-          }
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "v_alignment": "top",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Upgrades (click to set)",
+                  "content": {
+                    "type": "layout",
+                    "key": "upgrades_block"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "v_alignment": "top",
+              "h_alignment": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Volume 1",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "300,26",
+                    "rows": [
+                      [
+                        "row_osts__baby_face"
+                      ],
+                      [
+                        "row_osts__congratulations_you_beat_the_tutorial"
+                      ],
+                      [
+                        "row_osts__fear_of_shadow"
+                      ],
+                      [
+                        "row_osts__intermission_1"
+                      ],
+                      [
+                        "row_osts__intermission_2"
+                      ],
+                      [
+                        "row_osts__intermission_3"
+                      ],
+                      [
+                        "row_osts__intermission_4"
+                      ],
+                      [
+                        "row_osts__intermission_5"
+                      ],
+                      [
+                        "row_osts__intermission_6"
+                      ],
+                      [
+                        "row_osts__line_of_fire"
+                      ],
+                      [
+                        "row_osts__mart"
+                      ],
+                      [
+                        "row_osts__nullscape"
+                      ],
+                      [
+                        "row_osts__paradox_trip"
+                      ],
+                      [
+                        "row_osts__seems_you_got_telefragged"
+                      ],
+                      [
+                        "row_osts__void_explorer"
+                      ],
+                      [
+                        "row_osts__conviction"
+                      ],
+                      [
+                        "row_osts__determination"
+                      ],
+                      [
+                        "row_osts__fear_before_failure_1"
+                      ],
+                      [
+                        "row_osts__fear_before_failure_2"
+                      ],
+                      [
+                        "row_osts__fear_before_failure_3"
+                      ],
+                      [
+                        "row_osts__inescapable"
+                      ],
+                      [
+                        "row_osts__this_world_will_collapse"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Volume 2",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "300,26",
+                    "rows": [
+                      [
+                        "row_osts__a_delightful_new_death"
+                      ],
+                      [
+                        "row_osts__conga_line"
+                      ],
+                      [
+                        "row_osts__dimension"
+                      ],
+                      [
+                        "row_osts__find_your_flame"
+                      ],
+                      [
+                        "row_osts__kenophobia"
+                      ],
+                      [
+                        "row_osts__subspace_sequence"
+                      ],
+                      [
+                        "row_osts__your_new_prison"
+                      ],
+                      [
+                        "row_osts__death_defiance"
+                      ],
+                      [
+                        "row_osts__former_gardens"
+                      ],
+                      [
+                        "row_osts__unforeseen_unforgiving_1"
+                      ],
+                      [
+                        "row_osts__unforeseen_unforgiving_2"
+                      ],
+                      [
+                        "row_osts__void_breaker"
+                      ],
+                      [
+                        "row_osts__choir_of_the_bells_1"
+                      ],
+                      [
+                        "row_osts__choir_of_the_bells_2"
+                      ],
+                      [
+                        "row_osts__decay_true"
+                      ],
+                      [
+                        "row_osts__imperial_enigma"
+                      ],
+                      [
+                        "row_osts__temporal_tenacity"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Volume 3",
+                  "v_alignment": "top",
+                  "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "v_alignment": "top",
+                    "item_margin": "2,2",
+                    "item_size": "300,26",
+                    "rows": [
+                      [
+                        "row_osts__checkmate"
+                      ],
+                      [
+                        "row_osts__disruption_and_dissonance"
+                      ],
+                      [
+                        "row_osts__domasp_s_gift"
+                      ],
+                      [
+                        "row_osts__inter_continental_ballistic_missile"
+                      ],
+                      [
+                        "row_osts__monolith"
+                      ],
+                      [
+                        "row_osts__self_destruct"
+                      ],
+                      [
+                        "row_osts__vein_blood"
+                      ],
+                      [
+                        "row_osts__voidbound"
+                      ],
+                      [
+                        "row_osts__cognition"
+                      ],
+                      [
+                        "row_osts__aerodynamics"
+                      ],
+                      [
+                        "row_osts__event_horizon"
+                      ],
+                      [
+                        "row_osts__insurmountable_abyss"
+                      ],
+                      [
+                        "row_osts__it_doesn_t_end_here"
+                      ],
+                      [
+                        "row_osts__nil"
+                      ],
+                      [
+                        "row_osts__won_t_you_hear_my_symphony"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         }
       }
     ]
@@ -637,11 +1422,34 @@
   "settings_popup": {
     "type": "container",
     "background": "#303841",
-    "margin": "6, 6",
+    "margin": "6,6",
     "content": {
       "type": "array",
       "orientation": "vertical",
       "content": [
+        {
+          "type": "text",
+          "text": "Filled in automatically when connected to AP.",
+          "margin": "4,2,4,6"
+        },
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "item",
+              "item": "opt_goal",
+              "max_height": 32,
+              "max_width": 32,
+              "margin": 4
+            },
+            {
+              "type": "text",
+              "text": "Goal Type",
+              "v_alignment": "center"
+            }
+          ]
+        },
         {
           "type": "array",
           "orientation": "horizontal",
@@ -655,7 +1463,7 @@
             },
             {
               "type": "text",
-              "text": "Blossoms Required",
+              "text": "Required FRAGMENT OF BLOSSOM",
               "v_alignment": "center"
             }
           ]
@@ -673,25 +1481,7 @@
             },
             {
               "type": "text",
-              "text": "Randomize Roots",
-              "v_alignment": "center"
-            }
-          ]
-        },
-        {
-          "type": "array",
-          "orientation": "horizontal",
-          "content": [
-            {
-              "type": "item",
-              "item": "opt_goal",
-              "max_height": 32,
-              "max_width": 32,
-              "margin": 4
-            },
-            {
-              "type": "text",
-              "text": "Goal",
+              "text": "Randomize ROOTS",
               "v_alignment": "center"
             }
           ]
@@ -720,24 +1510,6 @@
           "content": [
             {
               "type": "item",
-              "item": "opt_cursanity_15",
-              "max_height": 32,
-              "max_width": 32,
-              "margin": 4
-            },
-            {
-              "type": "text",
-              "text": "Cursanity (15)",
-              "v_alignment": "center"
-            }
-          ]
-        },
-        {
-          "type": "array",
-          "orientation": "horizontal",
-          "content": [
-            {
-              "type": "item",
               "item": "opt_ostsanity",
               "max_height": 32,
               "max_width": 32,
@@ -756,14 +1528,14 @@
           "content": [
             {
               "type": "item",
-              "item": "opt_ostsanity_15",
+              "item": "opt_celestial_quests",
               "max_height": 32,
               "max_width": 32,
               "margin": 4
             },
             {
               "type": "text",
-              "text": "OSTsanity (15)",
+              "text": "Celestial Quests",
               "v_alignment": "center"
             }
           ]
@@ -774,16 +1546,72 @@
           "content": [
             {
               "type": "item",
-              "item": "opt_ostsanity_30",
+              "item": "opt_prac_frags",
               "max_height": 32,
               "max_width": 32,
               "margin": 4
             },
             {
               "type": "text",
-              "text": "OSTsanity (30)",
+              "text": "Celestial Practice Requires FRAGMENTs",
               "v_alignment": "center"
             }
+          ]
+        },
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "item",
+              "item": "opt_prac_ungates",
+              "max_height": 32,
+              "max_width": 32,
+              "margin": 4
+            },
+            {
+              "type": "text",
+              "text": "Celestial Practice Requires Ungates",
+              "v_alignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "item",
+              "item": "opt_prac_roots",
+              "max_height": 32,
+              "max_width": 32,
+              "margin": 4
+            },
+            {
+              "type": "text",
+              "text": "Celestial Practice Requires ROOTS",
+              "v_alignment": "center"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Classes included (click to exclude):",
+          "margin": "4,8,4,2"
+        },
+        {
+          "type": "itemgrid",
+          "item_margin": "4,4",
+          "item_size": 32,
+          "h_alignment": "left",
+          "rows": [
+            [
+              "opt_include_glider",
+              "opt_include_grappler",
+              "opt_include_prisoner",
+              "opt_include_spirit",
+              "opt_include_wanted"
+            ]
           ]
         }
       ]

@@ -4,68 +4,62 @@
     "children": [
       {
         "name": "Bloom. (10)",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 1245,
-            "y": 320
-          }
-        ],
         "sections": [
           {
-            "name": "Goal",
+            "name": "Check",
             "item_count": 1
           }
         ],
         "access_rules": [
-          "$blossomFragmentReq,progressive_ungate_levels:1,$rootsReq"
-        ],
-        "visibility_rules": [
-          "$goalIsLevel|1"
+          "$blossomFragmentReq,$rootsReq,ungate_1"
         ]
       },
       {
         "name": "Bloom. (15)",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 1245,
-            "y": 320
-          }
-        ],
         "sections": [
           {
-            "name": "Goal",
+            "name": "Check",
             "item_count": 1
           }
         ],
         "access_rules": [
-          "$blossomFragmentReq,progressive_ungate_levels:2,$rootsReq"
-        ],
-        "visibility_rules": [
-          "$goalIsLevel|2"
+          "$blossomFragmentReq,$rootsReq,ungate_2"
         ]
       },
       {
         "name": "Bloom. (20)",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 1245,
-            "y": 320
-          }
-        ],
         "sections": [
           {
-            "name": "Goal",
+            "name": "Check",
             "item_count": 1
           }
         ],
         "access_rules": [
-          "$blossomFragmentReq,progressive_ungate_levels:3,$rootsReq"
+          "$blossomFragmentReq,$rootsReq,ungate_3"
+        ]
+      },
+      {
+        "name": "GET EVEN.",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
         ],
-        "visibility_rules": [
-          "$goalIsLevel|3"
+        "access_rules": [
+          "$blossomFragmentReq,$canFightCelestial,$rootsReq"
+        ]
+      },
+      {
+        "name": "BLOSSOM.",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "$blossomFragmentReq,$rootsReq,ungate_4"
         ]
       }
     ]
@@ -75,13 +69,6 @@
     "children": [
       {
         "name": "Encounter Voidbound Enemy",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 240,
-            "y": 90
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -89,18 +76,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
+          "ungate_2"
         ]
       },
       {
         "name": "Survive Voidbreaker Encounter",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 335,
-            "y": 90
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -108,18 +88,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:3"
+          "ungate_3"
         ]
       },
       {
         "name": "3 Husk Curses",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 430,
-            "y": 90
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -127,18 +100,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
+          "ungate_1"
         ]
       },
       {
         "name": "2 Tripmine Curses",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 525,
-            "y": 90
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -146,18 +112,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
+          "ungate_1"
         ]
       },
       {
         "name": "Greater Curse",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 240,
-            "y": 180
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -165,18 +124,23 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Delusional",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
         ]
       },
       {
         "name": "Burn",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 335,
-            "y": 180
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -186,13 +150,6 @@
       },
       {
         "name": "Become Concussed",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 430,
-            "y": 180
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -202,13 +159,6 @@
       },
       {
         "name": "Escape With Spare Shield",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 525,
-            "y": 180
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -216,18 +166,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
+          "ungate_1"
         ]
       },
       {
         "name": "Escape With Spare Subspacial Barrier",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 240,
-            "y": 270
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -235,18 +178,84 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2,seed_of_immortality:3"
+          "seed_of_immortality:3,ungate_2"
+        ]
+      },
+      {
+        "name": "5 Temporary Curses",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "seed_of_potential:3,ungate_1",
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Wish For Avarice or Wish For Life",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Wish For Safety",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Wish For Prosperity",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Wish For Infinity",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Wish For Luck",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
         ]
       },
       {
         "name": "Seamine Curse",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 335,
-            "y": 270
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -254,18 +263,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:3"
+          "ungate_3"
         ]
       },
       {
         "name": "Kolóna Curse",
-        "map_locations": [
-          {
-            "map": "map_general",
-            "x": 430,
-            "y": 270
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -273,7 +275,7 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
+          "ungate_2"
         ]
       }
     ]
@@ -283,13 +285,6 @@
     "children": [
       {
         "name": "Reach Level 5 [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 320,
-            "y": 170
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -302,13 +297,6 @@
       },
       {
         "name": "All Gold Gifts [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 426,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -321,13 +309,6 @@
       },
       {
         "name": "Escape After Complete Destruction (Level 3+) [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 470,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -340,13 +321,6 @@
       },
       {
         "name": "Take Baby [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 426,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -359,13 +333,6 @@
       },
       {
         "name": "Encounter Flesh [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 320,
-            "y": 470
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -373,18 +340,11 @@
           }
         ],
         "access_rules": [
-          "charger_class,progressive_ungate_levels"
+          "charger_class,ungate_1"
         ]
       },
       {
         "name": "Take Husk [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 213,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -397,13 +357,6 @@
       },
       {
         "name": "Encounter Telefragger [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 170,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -411,18 +364,11 @@
           }
         ],
         "access_rules": [
-          "charger_class,progressive_ungate_levels"
+          "charger_class,ungate_1"
         ]
       },
       {
         "name": "Medal Curse [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 213,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -430,18 +376,11 @@
           }
         ],
         "access_rules": [
-          "charger_class,progressive_ungate_levels,seed_of_potential:3"
+          "charger_class,seed_of_potential:3,ungate_1"
         ]
       },
       {
         "name": "Altar of Purgatory [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 419,
-            "y": 79
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -449,18 +388,11 @@
           }
         ],
         "access_rules": [
-          "charger_class,progressive_ungate_levels"
+          "charger_class,ungate_1"
         ]
       },
       {
         "name": "Reach Level 13 [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 560,
-            "y": 220
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -468,18 +400,23 @@
           }
         ],
         "access_rules": [
-          "charger_class,progressive_ungate_levels:2"
+          "charger_class,ungate_2"
         ]
       },
       {
         "name": "Overtuned [Charger]",
-        "map_locations": [
+        "sections": [
           {
-            "map": "map_charger",
-            "x": 560,
-            "y": 419
+            "name": "Check",
+            "item_count": 1
           }
         ],
+        "access_rules": [
+          "charger_class"
+        ]
+      },
+      {
+        "name": "Dance With Mart [Charger]",
         "sections": [
           {
             "name": "Check",
@@ -492,13 +429,6 @@
       },
       {
         "name": "Detonate 5 Tripmines In A Level [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 419,
-            "y": 560
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -511,13 +441,6 @@
       },
       {
         "name": "ICBM Curse [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 220,
-            "y": 560
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -530,13 +453,6 @@
       },
       {
         "name": "Drop Bounce On Grapple Point [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 79,
-            "y": 419
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -544,18 +460,11 @@
           }
         ],
         "access_rules": [
-          "charger_class,progressive_ungate_levels,seed_of_nullscape:2"
+          "charger_class,seed_of_nullscape:2,ungate_1"
         ]
       },
       {
         "name": "Ride Grindrail [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 79,
-            "y": 220
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -563,18 +472,11 @@
           }
         ],
         "access_rules": [
-          "charger_class,progressive_ungate_levels:2"
+          "charger_class,ungate_2"
         ]
       },
       {
         "name": "Abilityless Level (Level 3+) [Charger]",
-        "map_locations": [
-          {
-            "map": "map_charger",
-            "x": 220,
-            "y": 79
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -592,13 +494,6 @@
     "children": [
       {
         "name": "Reach Level 5 [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 320,
-            "y": 170
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -611,13 +506,6 @@
       },
       {
         "name": "All Gold Gifts [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 426,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -630,13 +518,6 @@
       },
       {
         "name": "Escape After Complete Destruction (Level 3+) [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 470,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -649,13 +530,6 @@
       },
       {
         "name": "Take Baby [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 426,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -668,13 +542,6 @@
       },
       {
         "name": "Encounter Flesh [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 320,
-            "y": 470
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -682,18 +549,11 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels"
+          "diver_class,ungate_1"
         ]
       },
       {
         "name": "Take Husk [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 213,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -706,13 +566,6 @@
       },
       {
         "name": "Encounter Telefragger [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 170,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -720,18 +573,11 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels"
+          "diver_class,ungate_1"
         ]
       },
       {
         "name": "Medal Curse [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 213,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -739,18 +585,11 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels,seed_of_potential:3"
+          "diver_class,seed_of_potential:3,ungate_1"
         ]
       },
       {
         "name": "Altar of Purgatory [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 419,
-            "y": 79
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -758,18 +597,11 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels"
+          "diver_class,ungate_1"
         ]
       },
       {
         "name": "Reach Level 13 [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 560,
-            "y": 220
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -777,18 +609,23 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels:2"
+          "diver_class,ungate_2"
         ]
       },
       {
         "name": "Overtuned [Diver]",
-        "map_locations": [
+        "sections": [
           {
-            "map": "map_diver",
-            "x": 560,
-            "y": 419
+            "name": "Check",
+            "item_count": 1
           }
         ],
+        "access_rules": [
+          "diver_class"
+        ]
+      },
+      {
+        "name": "Dance With Mart [Diver]",
         "sections": [
           {
             "name": "Check",
@@ -801,13 +638,6 @@
       },
       {
         "name": "Dive Into Bell [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 419,
-            "y": 560
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -820,13 +650,6 @@
       },
       {
         "name": "Survive A Ninja Belt Bonk [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 220,
-            "y": 560
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -834,18 +657,11 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels:2,seed_of_introspection:2"
+          "diver_class,seed_of_introspection:2,ungate_2"
         ]
       },
       {
         "name": "Telefragger Curse [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 79,
-            "y": 419
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -853,18 +669,11 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels"
+          "diver_class,ungate_1"
         ]
       },
       {
         "name": "Dive Into Grapple Point [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 79,
-            "y": 220
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -872,18 +681,11 @@
           }
         ],
         "access_rules": [
-          "diver_class,progressive_ungate_levels,seed_of_nullscape:2"
+          "diver_class,seed_of_nullscape:2,ungate_1"
         ]
       },
       {
         "name": "Abilityless Level (Level 3+) [Diver]",
-        "map_locations": [
-          {
-            "map": "map_diver",
-            "x": 220,
-            "y": 79
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -897,908 +699,10 @@
     ]
   },
   {
-    "name": "Glider",
-    "children": [
-      {
-        "name": "Reach Level 5 [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 320,
-            "y": 170
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      },
-      {
-        "name": "All Gold Gifts [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 426,
-            "y": 213
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      },
-      {
-        "name": "Escape After Complete Destruction (Level 3+) [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 470,
-            "y": 320
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      },
-      {
-        "name": "Take Baby [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 426,
-            "y": 426
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      },
-      {
-        "name": "Encounter Flesh [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 320,
-            "y": 470
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Take Husk [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 213,
-            "y": 426
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      },
-      {
-        "name": "Encounter Telefragger [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 170,
-            "y": 320
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Medal Curse [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 213,
-            "y": 213
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels,seed_of_potential:3"
-        ]
-      },
-      {
-        "name": "Altar of Purgatory [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 419,
-            "y": 79
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Reach Level 13 [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 560,
-            "y": 220
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels:2"
-        ]
-      },
-      {
-        "name": "Overtuned [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 560,
-            "y": 419
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      },
-      {
-        "name": "Flesh Curse [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 419,
-            "y": 560
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Survive A Bonk [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 220,
-            "y": 560
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      },
-      {
-        "name": "Glide Into A Grapple Point [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 79,
-            "y": 419
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels,seed_of_nullscape:2"
-        ]
-      },
-      {
-        "name": "Survive Seamine Detonation [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 79,
-            "y": 220
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class,progressive_ungate_levels:2"
-        ]
-      },
-      {
-        "name": "Abilityless Level (Level 3+) [Glider]",
-        "map_locations": [
-          {
-            "map": "map_glider",
-            "x": 220,
-            "y": 79
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "glider_class"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Grappler",
-    "children": [
-      {
-        "name": "Reach Level 5 [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 320,
-            "y": 170
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      },
-      {
-        "name": "All Gold Gifts [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 426,
-            "y": 213
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      },
-      {
-        "name": "Escape After Complete Destruction (Level 3+) [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 470,
-            "y": 320
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      },
-      {
-        "name": "Take Baby [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 426,
-            "y": 426
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      },
-      {
-        "name": "Encounter Flesh [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 320,
-            "y": 470
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Take Husk [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 213,
-            "y": 426
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      },
-      {
-        "name": "Encounter Telefragger [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 170,
-            "y": 320
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Medal Curse [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 213,
-            "y": 213
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels,seed_of_potential:3"
-        ]
-      },
-      {
-        "name": "Altar of Purgatory [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 419,
-            "y": 79
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Reach Level 13 [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 560,
-            "y": 220
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels:2"
-        ]
-      },
-      {
-        "name": "Overtuned [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 560,
-            "y": 419
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      },
-      {
-        "name": "Disable Jump Pad [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 419,
-            "y": 560
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      },
-      {
-        "name": "Grapple Point Combo [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 220,
-            "y": 560
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels,seed_of_nullscape:2"
-        ]
-      },
-      {
-        "name": "Seamine Grappler [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 79,
-            "y": 419
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels:2"
-        ]
-      },
-      {
-        "name": "Take Flesh And Operator [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 79,
-            "y": 220
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Abilityless Level (Level 3+) [Grappler]",
-        "map_locations": [
-          {
-            "map": "map_grappler",
-            "x": 220,
-            "y": 79
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "grappler_class"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Prisoner",
-    "children": [
-      {
-        "name": "Reach Level 5 [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 320,
-            "y": 170
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "All Gold Gifts [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 437,
-            "y": 226
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "Escape After Complete Destruction (Level 3+) [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 466,
-            "y": 353
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "Take Baby [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 385,
-            "y": 455
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "Encounter Flesh [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 254,
-            "y": 455
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Take Husk [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 173,
-            "y": 353
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "Encounter Telefragger [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 202,
-            "y": 226
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Medal Curse [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 432,
-            "y": 85
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class,progressive_ungate_levels,seed_of_potential:3"
-        ]
-      },
-      {
-        "name": "Altar of Purgatory [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 573,
-            "y": 262
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class,progressive_ungate_levels"
-        ]
-      },
-      {
-        "name": "Overtuned [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 523,
-            "y": 482
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "Take Useless Upgrade [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 320,
-            "y": 580
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class,progressive_ungate_levels,seed_of_control:3",
-          "prisoner_class,progressive_ungate_levels,seed_of_introspection",
-          "progressive_ungate_levels:2,seed_of_immortality:3"
-        ]
-      },
-      {
-        "name": "Take Bell And Springer [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 116,
-            "y": 482
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "Use Jump Pad [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 66,
-            "y": 262
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      },
-      {
-        "name": "Use Altar [Prisoner]",
-        "map_locations": [
-          {
-            "map": "map_prisoner",
-            "x": 207,
-            "y": 85
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "prisoner_class"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Spirit",
     "children": [
       {
         "name": "Reach Level 5 [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 320,
-            "y": 170
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1811,13 +715,6 @@
       },
       {
         "name": "All Gold Gifts [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 426,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1830,13 +727,6 @@
       },
       {
         "name": "Escape After Complete Destruction (Level 3+) [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 470,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1849,13 +739,6 @@
       },
       {
         "name": "Take Baby [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 426,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1868,13 +751,6 @@
       },
       {
         "name": "Encounter Flesh [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 320,
-            "y": 470
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1882,18 +758,11 @@
           }
         ],
         "access_rules": [
-          "spirit_class,progressive_ungate_levels"
+          "spirit_class,ungate_1"
         ]
       },
       {
         "name": "Take Husk [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 213,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1906,13 +775,6 @@
       },
       {
         "name": "Encounter Telefragger [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 170,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1920,18 +782,11 @@
           }
         ],
         "access_rules": [
-          "spirit_class,progressive_ungate_levels"
+          "spirit_class,ungate_1"
         ]
       },
       {
         "name": "Medal Curse [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 213,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1939,18 +794,11 @@
           }
         ],
         "access_rules": [
-          "spirit_class,progressive_ungate_levels,seed_of_potential:3"
+          "seed_of_potential:3,spirit_class,ungate_1"
         ]
       },
       {
         "name": "Altar of Purgatory [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 419,
-            "y": 79
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1958,18 +806,11 @@
           }
         ],
         "access_rules": [
-          "spirit_class,progressive_ungate_levels"
+          "spirit_class,ungate_1"
         ]
       },
       {
         "name": "Reach Level 13 [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 560,
-            "y": 220
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -1977,18 +818,23 @@
           }
         ],
         "access_rules": [
-          "spirit_class,progressive_ungate_levels:2"
+          "spirit_class,ungate_2"
         ]
       },
       {
         "name": "Overtuned [Spirit]",
-        "map_locations": [
+        "sections": [
           {
-            "map": "map_spirit",
-            "x": 560,
-            "y": 419
+            "name": "Check",
+            "item_count": 1
           }
         ],
+        "access_rules": [
+          "spirit_class"
+        ]
+      },
+      {
+        "name": "Dance With Mart [Spirit]",
         "sections": [
           {
             "name": "Check",
@@ -2001,13 +847,6 @@
       },
       {
         "name": "Take Mart And Springer [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 419,
-            "y": 560
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2020,13 +859,6 @@
       },
       {
         "name": "Clear A Gold Tile With A Single Fling [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 220,
-            "y": 560
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2034,18 +866,11 @@
           }
         ],
         "access_rules": [
-          "spirit_class,progressive_ungate_levels,seed_of_potential:4"
+          "seed_of_potential:4,spirit_class,ungate_1"
         ]
       },
       {
         "name": "Above The Beacon's Clouds [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 79,
-            "y": 419
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2058,13 +883,6 @@
       },
       {
         "name": "Chance Curse [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 79,
-            "y": 220
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2072,18 +890,11 @@
           }
         ],
         "access_rules": [
-          "spirit_class,progressive_ungate_levels"
+          "spirit_class,ungate_1"
         ]
       },
       {
         "name": "Abilityless Level (Level 3+) [Spirit]",
-        "map_locations": [
-          {
-            "map": "map_spirit",
-            "x": 220,
-            "y": 79
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2097,17 +908,617 @@
     ]
   },
   {
+    "name": "Grappler",
+    "children": [
+      {
+        "name": "Reach Level 5 [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "All Gold Gifts [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "Escape After Complete Destruction (Level 3+) [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "Take Baby [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "Encounter Flesh [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Take Husk [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "Encounter Telefragger [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Medal Curse [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,seed_of_potential:3,ungate_1"
+        ]
+      },
+      {
+        "name": "Altar of Purgatory [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Reach Level 13 [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,ungate_2"
+        ]
+      },
+      {
+        "name": "Overtuned [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "Dance With Mart [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "Underneath The Beacon [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      },
+      {
+        "name": "Grapple Point Combo [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,seed_of_nullscape:2,ungate_1"
+        ]
+      },
+      {
+        "name": "Seamine Grappler [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,ungate_2"
+        ]
+      },
+      {
+        "name": "Take Flesh And Operator [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Abilityless Level (Level 3+) [Grappler]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "grappler_class"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Glider",
+    "children": [
+      {
+        "name": "Reach Level 5 [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "All Gold Gifts [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "Escape After Complete Destruction (Level 3+) [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "Take Baby [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "Encounter Flesh [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Take Husk [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "Encounter Telefragger [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Medal Curse [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,seed_of_potential:3,ungate_1"
+        ]
+      },
+      {
+        "name": "Altar of Purgatory [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Reach Level 13 [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,ungate_2"
+        ]
+      },
+      {
+        "name": "Overtuned [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "Dance With Mart [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "Flesh Curse [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Survive A Bonk [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      },
+      {
+        "name": "Glide Into A Grapple Point [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,seed_of_nullscape:2,ungate_1"
+        ]
+      },
+      {
+        "name": "Survive Seamine Detonation [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class,ungate_2"
+        ]
+      },
+      {
+        "name": "Abilityless Level (Level 3+) [Glider]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "glider_class"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Prisoner",
+    "children": [
+      {
+        "name": "Reach Level 5 [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "All Gold Gifts [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Escape After Complete Destruction (Level 3+) [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Take Baby [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Encounter Flesh [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Take Husk [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Encounter Telefragger [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Medal Curse [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class,seed_of_potential:3,ungate_1"
+        ]
+      },
+      {
+        "name": "Altar of Purgatory [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class,ungate_1"
+        ]
+      },
+      {
+        "name": "Overtuned [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Dance With Mart [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Take Useless Upgrade [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class,seed_of_introspection:1,ungate_1",
+          "prisoner_class,seed_of_control:1,ungate_1",
+          "prisoner_class,seed_of_celerity:4,ungate_1",
+          "prisoner_class,seed_of_immortality:3,ungate_2",
+          "prisoner_class,seed_of_potential:7,ungate_3"
+        ]
+      },
+      {
+        "name": "Take Bell And Springer [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Use Jump Pad [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      },
+      {
+        "name": "Use Altar [Prisoner]",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "prisoner_class"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Wanted",
     "children": [
       {
         "name": "Reach Level 5 [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 320,
-            "y": 170
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2120,13 +1531,6 @@
       },
       {
         "name": "All Gold Gifts [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 426,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2139,13 +1543,6 @@
       },
       {
         "name": "Escape After Complete Destruction (Level 3+) [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 470,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2158,13 +1555,6 @@
       },
       {
         "name": "Take Baby [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 426,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2177,13 +1567,6 @@
       },
       {
         "name": "Encounter Flesh [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 320,
-            "y": 470
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2191,18 +1574,11 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels"
+          "ungate_1,wanted_class"
         ]
       },
       {
         "name": "Take Husk [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 213,
-            "y": 426
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2215,13 +1591,6 @@
       },
       {
         "name": "Encounter Telefragger [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 170,
-            "y": 320
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2229,18 +1598,11 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels"
+          "ungate_1,wanted_class"
         ]
       },
       {
         "name": "Medal Curse [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 213,
-            "y": 213
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2248,18 +1610,11 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels,seed_of_potential:3"
+          "seed_of_potential:3,ungate_1,wanted_class"
         ]
       },
       {
         "name": "Altar of Purgatory [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 432,
-            "y": 85
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2267,18 +1622,11 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels"
+          "ungate_1,wanted_class"
         ]
       },
       {
         "name": "Reach Level 13 [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 573,
-            "y": 262
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2286,18 +1634,23 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels:2"
+          "ungate_2,wanted_class"
         ]
       },
       {
         "name": "Overtuned [Wanted]",
-        "map_locations": [
+        "sections": [
           {
-            "map": "map_wanted",
-            "x": 523,
-            "y": 482
+            "name": "Check",
+            "item_count": 1
           }
         ],
+        "access_rules": [
+          "wanted_class"
+        ]
+      },
+      {
+        "name": "Dance With Mart [Wanted]",
         "sections": [
           {
             "name": "Check",
@@ -2310,13 +1663,6 @@
       },
       {
         "name": "Take Husk And ICBM [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 320,
-            "y": 580
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2329,13 +1675,6 @@
       },
       {
         "name": "2 Medal Curses [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 116,
-            "y": 482
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2343,18 +1682,11 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels,seed_of_potential:3"
+          "seed_of_potential:3,ungate_1,wanted_class"
         ]
       },
       {
         "name": "Survive Kolóna Encounter [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 66,
-            "y": 262
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2362,18 +1694,11 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels:2"
+          "ungate_2,wanted_class"
         ]
       },
       {
         "name": "Bounce Tourist [Wanted]",
-        "map_locations": [
-          {
-            "map": "map_wanted",
-            "x": 207,
-            "y": 85
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -2381,99 +1706,16 @@
           }
         ],
         "access_rules": [
-          "wanted_class,progressive_ungate_levels,seed_of_nullscape:3"
+          "seed_of_nullscape:3,ungate_1,wanted_class"
         ]
       }
     ]
   },
   {
-    "name": "CurSanity",
+    "name": "Celestial",
     "children": [
       {
-        "name": "Lower Gravity",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 110,
-            "y": 110
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Random Spawn",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 240,
-            "y": 110
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Scattered Gifts",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 370,
-            "y": 110
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Weaker Jump Pads",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 500,
-            "y": 110
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Bigger Tripmines",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 630,
-            "y": 110
-          }
-        ],
+        "name": "Eye Of The Cutter",
         "sections": [
           {
             "name": "Check",
@@ -2481,21 +1723,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "More Tripmines",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 760,
-            "y": 110
-          }
-        ],
+        "name": "Seamine Boost",
         "sections": [
           {
             "name": "Check",
@@ -2503,21 +1735,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "High Roller",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 110,
-            "y": 240
-          }
-        ],
+        "name": "High-Five The Celestial",
         "sections": [
           {
             "name": "Check",
@@ -2525,21 +1747,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "Fake Count",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 240,
-            "y": 240
-          }
-        ],
+        "name": "Frankly I Feel Like You Should ALWAYS Be Panicking Here But I Suppose This Will Have To Be Good Enough",
         "sections": [
           {
             "name": "Check",
@@ -2547,21 +1759,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "LAP 2",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 370,
-            "y": 240
-          }
-        ],
+        "name": "Shoot The Moon",
         "sections": [
           {
             "name": "Check",
@@ -2569,21 +1771,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "Fragile Gifts",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 500,
-            "y": 240
-          }
-        ],
+        "name": "Pierce The Void",
         "sections": [
           {
             "name": "Check",
@@ -2591,21 +1783,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "Jackpot",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 630,
-            "y": 240
-          }
-        ],
+        "name": "Abilityless BITTER",
         "sections": [
           {
             "name": "Check",
@@ -2613,21 +1795,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "Nothing?",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 760,
-            "y": 240
-          }
-        ],
+        "name": "Abilityless FUTILE",
         "sections": [
           {
             "name": "Check",
@@ -2635,21 +1807,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "Barotrauma",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 110,
-            "y": 370
-          }
-        ],
+        "name": "Abilityless CEASE",
         "sections": [
           {
             "name": "Check",
@@ -2657,22 +1819,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_cursanity",
-          "opt_cursanity_15"
+          "$canFightCelestial"
         ]
       },
       {
-        "name": "Minefield",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 240,
-            "y": 370
-          }
-        ],
+        "name": "Defeat The Celestial",
         "sections": [
           {
             "name": "Check",
@@ -2680,784 +1831,61 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_cursanity",
-          "opt_cursanity_15"
-        ]
-      },
-      {
-        "name": "More Ringing",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 188,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Mighty Gong",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 388,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Concussion",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 588,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Bigger Marts",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 788,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Mart Infection",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 988,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Mart Slide",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1188,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Pacifier",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1388,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          ""
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Problem Child",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1588,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Scorched Earth",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1788,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Bigger Blast",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1988,
-            "y": 188
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Closer Husk",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 188,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Further Husk",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 388,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Taller Husk",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 588,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Husk Express",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 788,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Conga Line [Curse]",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 988,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Random Husk",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1188,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_cursanity",
-          "opt_cursanity_15"
-        ]
-      },
-      {
-        "name": "Resonating Shockwaves",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1388,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Springloaded",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1588,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Bloodier Meat",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1788,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Blighted Jump Pads",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1988,
-            "y": 388
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Camouflage",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 188,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Shotgun",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 388,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Ambush",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 588,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Accurate Telefragger",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 788,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Lost Embers",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 988,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Burning Bouquet",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1188,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Blade Carousel",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1388,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_cursanity",
-          "opt_cursanity_15"
-        ]
-      },
-      {
-        "name": "Deadly Melody",
-        "map_locations": [
-          {
-            "map": "map_cursanity_enemy",
-            "x": 1588,
-            "y": 588
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_cursanity",
-          "opt_cursanity_15"
-        ]
-      },
-      {
-        "name": "Savory Ring",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 370,
-            "y": 370
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
-        ]
-      },
-      {
-        "name": "Beacon Mirage",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 500,
-            "y": 370
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_cursanity",
-          "opt_cursanity_15"
-        ]
-      },
-      {
-        "name": "Tweaked Odds",
-        "map_locations": [
-          {
-            "map": "map_cursanity_global",
-            "x": 630,
-            "y": 370
-          }
-        ],
-        "sections": [
-          {
-            "name": "Check",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_cursanity"
+          "$canFightCelestial"
         ]
       }
     ]
   },
   {
-    "name": "OSTsanity",
+    "name": "OSTs",
     "children": [
       {
         "name": "Nullscape",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 95,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Void Explorer",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 235,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Mart",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 375,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Paradox Trip",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 515,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Seems you got Telefragged",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 655,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Baby Face",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 95,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3465,78 +1893,38 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_1"
         ]
       },
       {
         "name": "Intermission - 1",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 235,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Intermission - 2",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 375,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Intermission - 3",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 515,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Intermission - 4",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 655,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3544,21 +1932,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_1"
         ]
       },
       {
         "name": "Intermission - 5",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 95,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3566,21 +1944,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_1"
         ]
       },
       {
         "name": "Intermission - 6",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 235,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3588,21 +1956,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Line of Fire",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 375,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3610,21 +1968,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Congratulations, you beat the Tutorial",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 515,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3632,21 +1980,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Fear of Shadow",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 655,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3654,21 +1992,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Fear Before Failure - 1",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 95,
-            "y": 628
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3676,22 +2004,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_3"
         ]
       },
       {
         "name": "Fear Before Failure - 2",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 235,
-            "y": 628
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3699,22 +2016,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_3"
         ]
       },
       {
         "name": "Fear Before Failure - 3",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 375,
-            "y": 628
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3722,22 +2028,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:3"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_3"
         ]
       },
       {
         "name": "Inescapable",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 515,
-            "y": 628
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3745,22 +2040,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "Conviction",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 655,
-            "y": 628
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3768,22 +2052,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "Determination",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 95,
-            "y": 686
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3791,22 +2064,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "THIS WORLD WILL COLLAPSE",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 235,
-            "y": 686
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3814,80 +2076,38 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "Your New Prison",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 885,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Kenophobia",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1025,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Dimension",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1165,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "A Delightful New Death",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1305,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3895,21 +2115,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_1"
         ]
       },
       {
-        "name": "Conga Line [OST]",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1445,
-            "y": 454
-          }
-        ],
+        "name": "Conga Line",
         "sections": [
           {
             "name": "Check",
@@ -3917,21 +2127,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Death Defiance",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 885,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3939,22 +2139,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "Former Gardens",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1025,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3962,22 +2151,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "Unforeseen Unforgiving - 1",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1165,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -3985,22 +2163,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "Unforeseen Unforgiving - 2",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1305,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4008,22 +2175,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "Void Breaker",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1445,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4031,22 +2187,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "IMPERIAL ENIGMA",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 885,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4054,23 +2199,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "Temporal Tenacity",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1025,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4078,23 +2211,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "Choir of the Bells - 1",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1165,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4102,23 +2223,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "Choir of the Bells - 2",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1305,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4126,23 +2235,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "DECAY (TRUE)",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1445,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4150,23 +2247,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "FIND YOUR FLAME",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 885,
-            "y": 628
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4174,116 +2259,56 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Subspace Sequence",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1025,
-            "y": 628
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Voidbound",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1675,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Checkmate",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1815,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Domasp's Gift",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1955,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Inter-Continental Ballistic Missile",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 2095,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
             "item_count": 1
           }
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
         ]
       },
       {
         "name": "Self Destruct",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 2235,
-            "y": 454
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4291,21 +2316,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_1"
         ]
       },
       {
         "name": "Disruption and Dissonance",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1675,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4313,21 +2328,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Vein Blood",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1815,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4335,21 +2340,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Monolith",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1955,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4357,21 +2352,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:2"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity"
+          "ungate_2"
         ]
       },
       {
         "name": "Cognition",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 2095,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4379,22 +2364,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15"
+          "ungate_4"
         ]
       },
       {
         "name": "Aerodynamics",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 2235,
-            "y": 512
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4402,23 +2376,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "Won't you hear my Symphony?",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1675,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4426,23 +2388,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "Event Horizon",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1815,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4450,23 +2400,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "nil",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 1955,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4474,23 +2412,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "INSURMOUNTABLE ABYSS",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 2095,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4498,23 +2424,11 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
-        ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+          "ungate_4"
         ]
       },
       {
         "name": "IT DOESN'T END HERE",
-        "map_locations": [
-          {
-            "map": "map_ostsanity",
-            "x": 2235,
-            "y": 570
-          }
-        ],
         "sections": [
           {
             "name": "Check",
@@ -4522,12 +2436,732 @@
           }
         ],
         "access_rules": [
-          "progressive_ungate_levels:4"
+          "ungate_4"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cursanity",
+    "children": [
+      {
+        "name": "Lower Gravity",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Higher Gravity",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Random Spawn",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Scattered Gifts",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Weaker Jump Pads",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Savory Ring",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
         ],
-        "visibility_rules": [
-          "opt_ostsanity",
-          "opt_ostsanity_15",
-          "opt_ostsanity_30"
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Bigger Tripmines",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "More Tripmines",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "High Roller",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Tweaked Odds",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Lap 2",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Fragile Gifts",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Nothing?",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Jackpot",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Barotrauma",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Minefield",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Run",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Volatile Implosions",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Beacon Mirage",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_4"
+        ]
+      },
+      {
+        "name": "More Ringing",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mighty Gong",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Concussion",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Concussive Blast",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Mart Infection",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Bigger Marts",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Red Marts",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Beacon Imp",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Problem Child",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Big Baby",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Baby Steps",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Scorched Earth",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bigger Blast",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Magic Missile",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Incendiary Shrapnel",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Closer Husk",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Further Husk",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Taller Husk",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Husk Express",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Resonating Shockwaves",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Springloaded",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Seahorse",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Horse Skipping",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Bloodier Meat",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Airborne Flesh",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Camouflage",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Ambush",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Accurate Telefragger",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_1"
+        ]
+      },
+      {
+        "name": "Lost Embers",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Burning Bouquet",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Angry Bird",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Smart Little Bird",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Stronger Wings",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_2"
+        ]
+      },
+      {
+        "name": "Blade Carousel",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Corrupted Blades",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Deadly Melody",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Jumping Instruments",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Encore",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Alluring Arrangement",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_3"
+        ]
+      },
+      {
+        "name": "Leo",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_4"
+        ]
+      },
+      {
+        "name": "Sagittarius",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_4"
+        ]
+      },
+      {
+        "name": "Blueprint: Cross Beams",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_4"
+        ]
+      },
+      {
+        "name": "Blueprint: Supersonic Lasers",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_4"
+        ]
+      },
+      {
+        "name": "Blueprint: Efficient Coolant",
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "ungate_4"
         ]
       }
     ]
